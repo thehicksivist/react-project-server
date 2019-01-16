@@ -1,6 +1,8 @@
 // dependencies
 const express = require('express')
 const app = express()
+const mongoose = require('mongoose')
+
 // connect to mlabs
 
 
