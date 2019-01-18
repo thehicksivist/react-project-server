@@ -1,25 +1,25 @@
 {
-  "name": "react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thanhthedev/react-project-server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thanhthedev/react-project-server/issues"
-  },
-  "homepage": "https://github.com/thanhthedev/react-project-server#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "mongoose": "^5.4.4"
-  }
+	"name": "react",
+	"version": "1.0.0",
+	"description": "team for ever",
+	"main": "app.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thanhthedev/react-project-server.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/thanhthedev/react-project-server/issues"
+	},
+	"homepage": "https://github.com/thanhthedev/react-project-server#readme",
+	"dependencies": {
+		"express": "^4.16.4",
+		"mongoose": "^5.4.4"
+	}
 }
