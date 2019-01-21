@@ -2,6 +2,7 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
 // connect to mlabs
 
 
@@ -19,5 +20,5 @@ app.get('/', function(req, res, next){
 //     }
 // })
 
-// port 3001
-app.listen(process.env.PORT || 3001, () => console.log('Listening on http://localhost:3001'))
+// port 5000
+app.listen(process.env.PORT || 5000, () => console.log('Listening on http://localhost:5000'))
