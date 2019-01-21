@@ -20,6 +20,7 @@
   "homepage": "https://github.com/thanhthedev/react-project-server#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "express-router": "0.0.1",
     "mongoose": "^5.4.4"
   }
 }
