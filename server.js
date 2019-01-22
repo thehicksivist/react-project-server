@@ -1,10 +1,13 @@
 // dependencies
 const express = require('express')
 const app = express()
-const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
+const session = require('express-session')
+const passport = require('passport');
+const mongoose = require('mongoose');
+const User = require('./models/user');
 
-// connect to mlabs
+// connect to mlab
 const dbConn = require('./config/keys').mongoURI
 
 //routes
