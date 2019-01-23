@@ -16,7 +16,7 @@ const serviceSchema = new Schema({
     name: String,
     created_at: { type: Date, default: Date.now }
 })
-  
+
 const Service = mongoose.model('Service', serviceSchema)
 
 module.exports = Service
