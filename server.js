@@ -12,18 +12,9 @@ const db = require('./config/keys').mongoURI;
 app.use(bodyParser.json());
 
 //Routes
-app.get('/', function(req, res, next) {
+app.get('/', (req, res) => {
 	res.send('<h1>team4everaintclever</h1>');
 });
-
-//mongoose
-// mongoose.connect(db, (err) => {
-// 	if (err) {
-// 		console.log('Error connecting to database', err);
-// 	} else {
-// 		console.log('Connected to database!');
-// 	}
-// });
 
 mongoose.connect(db).then(() => console.log('MongoDb Connected...')).catch((err) => console.log(err));
 
