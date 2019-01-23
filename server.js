@@ -9,24 +9,23 @@ const mongoose = require('mongoose');
 
 // parse application/json
 app.use(bodyParser.json())
-
+app.use(bodyParser.urlencoded({extended:false}))
 // connect to mlab
 const dbConn = require('./config/keys').mongoURI
 
 //routes
 app.get('/', function(req, res, next){
-    res.send("<h1>team4everaintclever</h1>");
+  res.send("<h1>team4everaintclever</h1>");
 })
 app.use('/services', require('./routes/services'))
 
-
 //mongoose
 mongoose.connect(dbConn, (err) => {
-    if (err) {
-      console.log('Error connecting to database', err)
-    } else {
-      console.log('Connected to database!')
-    }
+  if (err) {
+    console.log('Error connecting to database', err)
+  } else {
+    console.log('Connected to database!')
+  }
 })
 
 // port 5000
