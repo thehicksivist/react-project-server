@@ -6,6 +6,10 @@ const session = require('express-session')
 const passport = require('passport');
 const mongoose = require('mongoose');
 
+
+// parse application/json
+app.use(bodyParser.json())
+
 // connect to mlab
 const dbConn = require('./config/keys').mongoURI
 
