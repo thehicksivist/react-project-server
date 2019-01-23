@@ -14,9 +14,9 @@ app.use(bodyParser.json());
 const dbConn = require('./config/keys').mongoURI;
 
 //routes
-app.get('/', (req, res, next) => {
-	res.send('<h1>team4everaintclever</h1>');
-});
+// app.get('/', (req, res, next) => {
+// 	res.send('index.html');
+// });
 app.use('/services', require('./routes/api/services'));
 
 //mongoose
