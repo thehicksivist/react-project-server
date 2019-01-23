@@ -1,3 +1,5 @@
-module.exports = {
-	mongoURI: 'mongodb://team-admin:react05@ds143604.mlab.com:43604/react-project-app'
-};
+if (process.env.NODE_ENV === 'production') {
+	module.exports = require('./keys_prod');
+} else {
+	module.exports = require('./keys_dev');
+}
