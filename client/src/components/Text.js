@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Text extends Component {
-	render() {
-		return <div />;
-	}
-}
+const Text = () => {
+	return <div>hjhgygfthyfhjg</div>;
+};
 
 export default Text;
