@@ -1,14 +1,15 @@
 import React from 'react';
-import Form from './Form';
-import Text from '../Text'
+import { Provider } from 'react-redux';
+import FormContainer from './forms/form.container';
+import configureStore from '../modules/store';
 
+const store = configureStore();
 // Quote suppose to be a Class i will return alot of stuff
 const Quote = () => {
-	return (
-        <div>
-            <Text />
-            <Form />
-        </div>
+    return (
+        <Provider store={store}>
+            <FormContainer />
+        </Provider>
     )
 };
 
