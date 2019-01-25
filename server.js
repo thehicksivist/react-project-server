@@ -58,10 +58,20 @@ app.set('view engine', 'handlebars')
 //Static folder
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
-app.get('/test', (req,res) => [
+app.get('/test', (req,res) => {
     res.render('contact')
-])
+})
+
+app.post('/post-quotes', function (req, res) {
+	console.log("inpostquotes")
+    dbConn.then(function(db) {
+    	 // for safety reasons
+        db.collection('quotes').insertOne(req.body);
+    });    
+    res.send('Data received:\n' + JSON.stringify(req.body));
+});
 app.post('/test', (req,res) => {
+	console.log("intest")
 	const output = `
 		<p>You have a new contact request</p>
 		<h3>Contact Details</h3>
@@ -105,8 +115,10 @@ app.post('/test', (req,res) => {
 		  console.log('Message sent: %s', info.messageID)
 		  console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info))
 		  res.render('contact', {msg: 'Email has been sent'})
-	  	})
+		  })
+		  
 	}
+	
 )
 // port 5000
 app.listen(process.env.PORT || 5000, () => console.log('Listening on http://localhost:5000'));
