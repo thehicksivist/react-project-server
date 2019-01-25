@@ -23,10 +23,19 @@ class App extends Component {
 						// <Home/>
 						<div></div>
 					)} />
-	
-					<Route exact path="/about" render={(props) => (
-						<About/>
-					)} />
+	                                // render suppouse to render always a components = {About} for example below :
+					//  <Router>
+					//     <Route path="/" component={App}>
+					//       <Route path="about" component={About} />
+					//       <Route path="inbox" component={Inbox}>
+					//         <Route path="messages/:id" component={Message} />
+					//       </Route>
+					//     </Route>
+					//   </Router>
+                                        
+					<Route exact path="/about" component ={About} />
+						
+					
 	
 					<Route exact path="/services" render={(props) => (
 						<Services/>
