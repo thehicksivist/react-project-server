@@ -23,7 +23,7 @@ class App extends Component {
 						// <Home/>
 						<div></div>
 					)} />
-	                                // render suppouse to render always a components = {About} for example below :
+	                                {/* // render suppouse to render always a components = {About} for example below :
 					//  <Router>
 					//     <Route path="/" component={App}>
 					//       <Route path="about" component={About} />
@@ -31,7 +31,7 @@ class App extends Component {
 					//         <Route path="messages/:id" component={Message} />
 					//       </Route>
 					//     </Route>
-					//   </Router>
+					//   </Router> */}
                                         
 					<Route exact path="/about" component ={About} />
 						
