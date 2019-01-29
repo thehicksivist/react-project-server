@@ -12,29 +12,29 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-			{
-				<Router>
-					<div>
-					<Route path="/" render={(props) => (
-						<Navbar/>
-					)} />
-			
-					{/* <Route exact path="/home" component ={Home} /> */}
-	                 
-					<Route exact path="/about" component ={About} />
-						
-					<Route exact path="/services" component ={Services} />
-	
-					<Route exact path="/freequote" component ={Quote} />
-	
-					<Route path="/" render={(props) => (
-						<Footer/>
-					)} />
+				{
+					<Router>
+						<div>
+							<Route path="/" render={(props) => (
+								<Navbar />
+							)} />
+
+              {/* <Route exact path="/home" component ={Home} /> */}
+
+              <Route exact path="/about" component ={About} />
+
+              <Route exact path="/services" component ={Services} />
+
+              <Route exact path="/freequote" component ={Quote} />
+
+              <Route path="/" render={(props) => (
+                <Footer/>
+              )} />
 					</div>
 				</Router>
 				}
 			</div>
-		  );
+		);
 	}
 }
 
