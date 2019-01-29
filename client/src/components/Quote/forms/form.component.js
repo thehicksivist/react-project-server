@@ -4,17 +4,18 @@ import Text from '../text';
 import Select from '../select';
 import Datepicker from '../datepicker';
 import Multiselect from '../multiselect';
+import services from '../services';
 import 'react-widgets/dist/css/react-widgets.css'
 
 
 
-export const FormComponent = ({ handleSubmit, onSubmit, formValues, change, pristine, reset }) => {
+const FormComponent = ({ handleSubmit, services, formValues, change, pristine, reset }) => {
     return (
         <div className="flex flex-column justify-center items-center">
             <h1>Request a Free Quote</h1>
             <form
                 className="w-80"
-                onSubmit={handleSubmit(onSubmit)}
+                onSubmit={handleSubmit}
             >
 
                 <Field
@@ -56,7 +57,7 @@ export const FormComponent = ({ handleSubmit, onSubmit, formValues, change, pris
                     name="servicesRequired"
                     label="Serivces Required"
                     component={Multiselect}
-                    data={['weed', 'cut', 'dumb data']}
+                    data={services}
                 />
 
                 <Field
@@ -96,8 +97,8 @@ export const FormComponent = ({ handleSubmit, onSubmit, formValues, change, pris
                 />
 
                 <Field
-                    name="comments"
-                    label="Comments"
+                    name="message"
+                    label="Message"
                     component={Text}
                 />
 
