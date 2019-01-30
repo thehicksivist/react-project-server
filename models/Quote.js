@@ -24,6 +24,10 @@ const quoteSchema = new Schema({
         type: String,
         required: true
     },
+    message: {
+        type: String,
+        required: true
+    },
     //services 
     //property type
     //timeslot
