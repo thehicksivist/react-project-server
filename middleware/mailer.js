@@ -6,6 +6,7 @@ const mailer = (req,res) => {
 		<p>You have a new contact request</p>
 		<h3>Contact Details</h3>
 		<ul>
+			${console.log(req.body)}
 			<li>Name: ${req.body.name}</li>
 			<li>Address: ${req.body.address}</li>
 			<li>Suburb: ${req.body.suburb}</li>

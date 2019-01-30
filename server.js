@@ -9,9 +9,18 @@ const passport = require('passport');
 const mongoose = require('mongoose');
 const nodemailer = require('nodemailer')
 const exphbs = require('express-handlebars')
+const routes = require('./routes/Routes')
 
 
 app.use(cors())
+app.use(routes)
+
+// allows CORS
+app.use((request, response, next) => {
+	response.header("Access-Control-Allow-Origin", "*");
+	response.header("Access-Control-Allow-Headers", "Content-Type");
+	next();
+  });
 
 // parse application/json
 app.use(bodyParser.json())
