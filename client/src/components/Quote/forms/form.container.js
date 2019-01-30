@@ -34,9 +34,12 @@ class FormContainer extends React.Component {
       }
 
     componentDidMount() {
-       
+        axios.get('http://localhost:5000/services')
+        .then(response => {
+            this.setState({ services: response.data.map(x => x.name) })
+        })
         // axios get list from API
-
+        
         // set local state
     }
 
@@ -56,7 +59,3 @@ const formConfiguration = {
 
 export default reduxForm(formConfiguration)(FormContainer)
 
-//  axios.get('http://localhost:5000/services')
-// .then(response => {
-//     this.setState({ services: response.data.map(x => x.name) })
-// })
