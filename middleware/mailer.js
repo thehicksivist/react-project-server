@@ -2,7 +2,6 @@
 const nodemailer = require('nodemailer')
 
 const mailer = (req,res) => {
-	console.log("intest")
 	const output = `
 		<p>You have a new contact request</p>
 		<h3>Contact Details</h3>
@@ -32,7 +31,7 @@ const mailer = (req,res) => {
 	  // setup email data with unicode symbols
 	  let mailOptions = {
 		from: '"Test" , <beththeboo94@hotmail.com>', // sender address
-		to: "mark.conanan@gmail.com", // list of receivers
+		to: "huythanhdao@gmail.com", // list of receivers
 		subject: "Hey sexy", // Subject line
 		text: "I'm here for you", // plain text body
 		html: output // html body

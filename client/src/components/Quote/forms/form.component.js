@@ -4,28 +4,23 @@ import Text from '../text';
 import Select from '../select';
 import Datepicker from '../datepicker';
 import Multiselect from '../multiselect';
+import services from '../services';
 import 'react-widgets/dist/css/react-widgets.css'
 
 
 
-export const FormComponent = ({ handleSubmit, onSubmit, formValues, change, pristine, reset }) => {
+const FormComponent = ({ handleSubmit, services, formValues, change, pristine, reset }) => {
     return (
         <div className="flex flex-column justify-center items-center">
             <h1>Request a Free Quote</h1>
             <form
                 className="w-80"
-                onSubmit={handleSubmit(onSubmit)}
+                onSubmit={handleSubmit}
             >
 
                 <Field
                     name="firstName"
-                    label="First Name"
-                    component={Text}
-                />
-
-                <Field
-                    name="lastName"
-                    label="Last Name"
+                    label="Name"
                     component={Text}
                 />
 
@@ -38,6 +33,12 @@ export const FormComponent = ({ handleSubmit, onSubmit, formValues, change, pris
                 <Field
                     name="address"
                     label="Address"
+                    component={Text}
+                />
+
+                <Field
+                    name="suburb"
+                    label="Suburb"
                     component={Text}
                 />
 
@@ -56,7 +57,7 @@ export const FormComponent = ({ handleSubmit, onSubmit, formValues, change, pris
                     name="servicesRequired"
                     label="Serivces Required"
                     component={Multiselect}
-                    data={['weed', 'cut', 'dumb data']}
+                    data={services}
                 />
 
                 <Field
@@ -71,30 +72,35 @@ export const FormComponent = ({ handleSubmit, onSubmit, formValues, change, pris
                     label="Inspection Time"
                     component={Select}
                     options={{
-                        sevenam: "7:00am",
-                        seven30am: "7:30am",
-                        eightam: "8:00am",
-                        eight30am: "8:30am",
-                        nineam: "9:00am",
-                        nineam: "9:30am",
-                        tenam: "10:00am",
-                        tenam: "10:30am",
-                        elevenam: "11:00am",
-                        eleven: "11:30am",
-                        elvenam: "12:00pm",
-                        twelve: "12:30pm",
-                        onepm: "1:00pm",
-                        one: "1:30pm",
-                        twopm: "2:00pm",
-                        two: "2:30pm",
-                        threepm: "3:00pm",
-                        three: "3:30pm",
+                        seven: "7:00am",
+                        seventhirty: "7:30am",
+                        eight: "8:00am",
+                        eightthirty: "8:30am",
+                        nine: "9:00am",
+                        ninethirty: "9:30am",
+                        ten: "10:00am",
+                        tenthirty: "10:30am",
+                        eleven: "11:00am",
+                        eleventhirty: "11:30am",
+                        twelve: "12:00pm",
+                        twelvethirty: "12:30pm",
+                        one: "1:00pm",
+                        onethirty: "1:30pm",
+                        two: "2:00pm",
+                        twothirty: "2:30pm",
+                        three: "3:00pm",
+                        threethirty: "3:30pm",
                         four: "4:00pm",
-                        four30: "4:30pm",
-                        fivepm: "5:00pm"
+                        fourthirty: "4:30pm",
+                        five: "5:00pm"
                     }}
                 />
 
+                <Field
+                    name="message"
+                    label="Message"
+                    component={Text}
+                />
 
 
                 <button
