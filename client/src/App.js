@@ -17,18 +17,16 @@ class App extends Component {
 				<div className="App" style={{ height: '1500px', background: 'cornflowerBlue' }}>
 					{
 						<div>
-							<Route path="/" component={Home} />
+							<Route path="/" component={Header} />
 							<div>
-								<Header />
 								<Featured />
 								<Jobs />
 								<Footer />
 							</div>
-							/>
 							<Route exact path="/about" component={About} />
 							<Route exact path="/services" component={Services} />
 							<Route exact path="/freequote" component={Quote} />
-							<Route path="/" render={(props) => <Footer />} />
+							<Route path="/" render={(props) => <Footer />} /> 
 						</div>
 					}
 				</div>

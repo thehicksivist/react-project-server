@@ -1,10 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-import slide_one from '../../resources/images/slide_one.png';
-import slide_two from '../../resources/images/slide_two.png';
-import slide_three from '../../resources/images/slide_three.png';
-
 const Carrousel = () => {
 	const settings = {
 		dots: true,
@@ -25,7 +21,7 @@ const Carrousel = () => {
 					<div
 						className="carrousel_image"
 						style={{
-							background: `url(${slide_one})`,
+							background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1548814181/Five%20Star/slide_one.png)`,
 							height: `${window.innerHeight}px`
 						}}
 					/>
@@ -34,7 +30,7 @@ const Carrousel = () => {
 					<div
 						className="carrousel_image"
 						style={{
-							background: `url(${slide_two})`,
+							background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1548814182/Five%20Star/slide_two.png)`,
 							height: `${window.innerHeight}px`
 						}}
 					/>
@@ -43,7 +39,7 @@ const Carrousel = () => {
 					<div
 						className="carrousel_image"
 						style={{
-							background: `url(${slide_three})`,
+							background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1548814180/Five%20Star/slide_three.png)`,
 							height: `${window.innerHeight}px`
 						}}
 					/>
