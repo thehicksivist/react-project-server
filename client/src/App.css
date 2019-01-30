@@ -22,8 +22,17 @@
   color: #61dafb;
 }
 
-img {
-  width: 80%;
+/* below 3 styles are for the services page items */
+.servimg {
+  width: 60%;
+}
+
+.servicetext {
+  font-size: 2vw;
+}
+
+.col-6 {
+  padding: 10px 10px;
 }
 
 @keyframes App-logo-spin {
