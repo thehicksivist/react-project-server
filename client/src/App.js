@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
-import Header from './components/layout/Header';
+import Header from './components/Header';
 import Featured from './components/featured';
 import Jobs from './components/jobs';
-import Footer from './components/layout/Footer';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import About from './components/About/About';
 import Services from './components/Services/Services';
