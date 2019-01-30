@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../resources/images/mow-logo.png';
+import { Link, NavLink } from 'react-router-dom';
 
 class Navbar extends Component {
 	render() {
@@ -18,35 +19,35 @@ class Navbar extends Component {
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span class="navbar-toggler-icon" />
+						<span className="navbar-toggler-icon" />
 					</button>
 					<div class="collapse navbar-collapse justify-content-right" id="navbarNav">
-						<ul class="navbar-nav right">
-							<li class="nav-item active">
-								<a class="nav-link" href="/">
-									HOME <span class="sr-only">(current)</span>
-								</a>
+						<ul className="navbar-nav right">
+							<li className="nav-item active">
+								<NavLink to="/" className="nav-link">
+									HOME
+								</NavLink>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/about">
+							<li className="nav-item">
+								<NavLink to="/about" className="nav-link">
 									ABOUT
-								</a>
+								</NavLink>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/feedback">
+							<li className="nav-item">
+								<NavLink to="/feedback" className="nav-link">
 									FEEDBACK
-								</a>
+								</NavLink>
 							</li>
 
-							<li class="nav-item">
-								<a class="nav-link " href="/services">
+							<li className="nav-item">
+								<NavLink to="/services" className="nav-link">
 									SERVICES
-								</a>
+								</NavLink>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link " href="/freequote">
-									QOUTE
-								</a>
+							<li className="nav-item">
+								<NavLink to="/freequote" className="nav-link">
+									QUOTE
+								</NavLink>
 							</li>
 						</ul>
 					</div>
