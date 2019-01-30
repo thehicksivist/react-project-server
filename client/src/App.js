@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
 import Header from './components/Header';
+import Home from './components/Home';
+import Feedback from './components/Feedback';
 import Featured from './components/featured';
 import Jobs from './components/jobs';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import About from './components/About/About';
+import About from './components/About';
 import Services from './components/Services/Services';
 import Quote from './components/Quote/Quote';
 import './App.css';
@@ -17,18 +19,16 @@ class App extends Component {
 				<div className="App" style={{ height: '1500px', background: 'cornflowerBlue' }}>
 					{
 						<div>
-							<Route path="/" component={Home} />
+							<Header />
+
+							<Route exact path="/" component={Home} />
+							<Route path="/about" component={About} />
+							<Route path="/feedback" component={Feedback} />
+							<Route path="/Services" component={Services} />
+							<Route path="/freequote" component={Quote} />
 							<div>
-								<Header />
-								<Featured />
-								<Jobs />
 								<Footer />
 							</div>
-							/>
-							<Route exact path="/about" component={About} />
-							<Route exact path="/services" component={Services} />
-							<Route exact path="/freequote" component={Quote} />
-							<Route path="/" render={(props) => <Footer />} />
 						</div>
 					}
 				</div>
