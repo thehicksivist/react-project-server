@@ -15,7 +15,7 @@ class App extends Component {
 	render() {
 		return (
 			<Router>
-				<div className="App" style={{ height: '1500px', background: 'cornflowerBlue' }}>
+				<div className="App" style={{ height: '100%', background: 'cornflowerBlue' }}>
 					{
 						<div>
 							<div>

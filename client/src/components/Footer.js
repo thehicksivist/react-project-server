@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-			<footer className="bg-success text-white mt-4 p-4 text-center page-footer" >
+			<footer className="footer" >
 				Copyright &copy;{new Date().getFullYear} Five Stars Mowing
 			</footer>
 	);
