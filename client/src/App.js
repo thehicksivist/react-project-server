@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
 import Header from './components/Header';
-import Featured from './components/featured';
-import Jobs from './components/jobs';
+import Carousel from './components/Home/Carousel';
+import Packages from './components/Home/Packages';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Quote from './components/Quote/Quote';
@@ -17,16 +17,14 @@ class App extends Component {
 				<div className="App" style={{ height: '1500px', background: 'cornflowerBlue' }}>
 					{
 						<div>
-							<Route path="/" component={Header} />
-							<div>
-								<Featured />
-								<Jobs />
-								<Footer />
-							</div>
+							<Redirect from="/" to="/home" />
+							<Route path="/" component={Header}/>
+							<Route exact path="/home" component={Carousel}/>
+							<Route exact path="/home" component={Packages}/>	
 							<Route exact path="/about" component={About} />
 							<Route exact path="/services" component={Services} />
 							<Route exact path="/freequote" component={Quote} />
-							<Route path="/" render={(props) => <Footer />} /> 
+							<Route path="/" component={Footer}/>
 						</div>
 					}
 				</div>
