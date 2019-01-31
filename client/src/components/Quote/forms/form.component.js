@@ -4,8 +4,8 @@ import Text from '../text';
 import Select from '../select';
 import Datepicker from '../datepicker';
 import Multiselect from '../multiselect';
-import services from '../services';
 import 'react-widgets/dist/css/react-widgets.css'
+import { reduxForm } from 'redux-form'
 
 
 
@@ -142,4 +142,9 @@ const FormComponent = ({ handleSubmit, services, formValues, change, pristine, r
     );
 }
 
-export default FormComponent;
+const formConfiguration = {
+    form: 'my-very-own-form'
+}
+export default reduxForm(formConfiguration)(FormComponent)
+
+// export default FormComponent;

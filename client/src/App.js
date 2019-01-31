@@ -8,7 +8,7 @@ import About from './components/About/About'
 import Services from './components/Services/Services';
 import Quote from './components/Quote/Quote';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
