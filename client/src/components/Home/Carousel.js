@@ -1,7 +1,7 @@
 import React from 'react';
-import Slider from 'react-slick';
+import Slider from 'react-slick'
 
-const Carrousel = () => {
+const Carousel = () => {
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -11,8 +11,10 @@ const Carrousel = () => {
 		autoplaySpeed: 2000,
 		pauseOnHover: true
 	};
+
 	return (
-		<div
+		<div style={{ position: 'relative' }}>
+			<div
 			className="carrousel_wrapper"
 			style={{ height: `${window.innerHeight}px`, width: `${window.innerWidth}px`, overflow: 'hidden' }}
 		>
@@ -46,7 +48,8 @@ const Carrousel = () => {
 				</div>
 			</Slider>
 		</div>
+		</div>
 	);
 };
 
-export default Carrousel;
+export default Carousel;
