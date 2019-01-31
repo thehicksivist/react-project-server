@@ -18,17 +18,13 @@ class App extends Component {
 					{
 						<div>
 							<Redirect from="/" to="/home" />
-							<Route path="/" component={Header}/>
-							<Route exact path="/home" component={Carousel}/>
-							<Route exact path="/home" component={Packages}/>	
+							<Route path="/" component={Header} />
+							<Route exact path="/home" component={Carousel} />
+							<Route exact path="/home" component={Packages} />
 							<Route exact path="/about" component={About} />
 							<Route exact path="/services" component={Services} />
 							<Route exact path="/freequote" component={Quote} />
-<<<<<<< HEAD
-							<Route path="/" render={(props) => <Footer />} />
-=======
-							<Route path="/" component={Footer}/>
->>>>>>> 5fd42a8c9f17dda9822140f9125b1a763f0cec5b
+							<Route path="/" component={Footer} />
 						</div>
 					}
 				</div>
