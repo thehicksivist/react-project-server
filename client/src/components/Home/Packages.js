@@ -9,6 +9,7 @@ const Packages = () => {
 						<div className="vn_outer">
 							<div className="vn_inner">
 								<div className="vn_icon_square bck_red" />
+								PACKAGES
 							</div>
 						</div>
 					</div>
