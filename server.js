@@ -1,6 +1,7 @@
 // dependencies
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
 // const session = require('express-session');
@@ -8,12 +9,22 @@ const passport = require('passport');
 const mongoose = require('mongoose');
 const nodemailer = require('nodemailer')
 const exphbs = require('express-handlebars')
+const routes = require('./routes/Routes')
 
 
+app.use(cors())
+app.use(routes)
+
+// allows CORS
+app.use((request, response, next) => {
+	response.header("Access-Control-Allow-Origin", "*");
+	response.header("Access-Control-Allow-Headers", "Content-Type");
+	next();
+  });
 
 // parse application/json
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended:false}))
+app.use(bodyParser.urlencoded({ extended: false }))
 
 // connect to mlab
 const dbConn = require('./config/keys').mongoURI;
@@ -58,8 +69,8 @@ app.set('view engine', 'handlebars')
 //Static folder
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
-app.get('/test', (req,res) => {
-    res.render('contact')
+app.get('/test', (req, res) => {
+	res.render('contact')
 })
 
 // app.post('/test', (req,res) => {
@@ -89,7 +100,7 @@ app.get('/test', (req,res) => {
 // 			rejectUnauthorized: false
 // 		}
 // 	  });
-	
+
 // 	  // setup email data with unicode symbols
 // 	  let mailOptions = {
 // 		from: '"Test" , <beththeboo94@hotmail.com>', // sender address
@@ -98,7 +109,7 @@ app.get('/test', (req,res) => {
 // 		text: "I'm here for you", // plain text body
 // 		html: output // html body
 // 	  };
-	
+
 // 	  // send mail with defined transport object
 // 	  transporter.sendMail(mailOptions, (error, info) => {
 // 		  if (error) {
@@ -108,9 +119,9 @@ app.get('/test', (req,res) => {
 // 		  console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info))
 // 		  res.render('contact', {msg: 'Email has been sent'})
 // 		  })
-		  
+
 // 	}
-	
+
 // )
 // port 5000
 app.listen(process.env.PORT || 5000, () => console.log('Listening on http://localhost:5000'));
