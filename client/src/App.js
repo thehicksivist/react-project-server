@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './resources/styles.css';
+// import './resources/styles.css';
+import './styles/servicestyles.css'
+import './styles/carousel.css'
 import Header from './components/Header';
 import Carousel from './components/Home/Carousel';
 import Packages from './components/Home/Packages';
