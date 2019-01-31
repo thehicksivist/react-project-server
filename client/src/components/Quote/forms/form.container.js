@@ -1,8 +1,7 @@
 import React from 'react';
-import { reduxForm } from 'redux-form';
-
 import FormComponent from './form.component';
 import axios from 'axios';
+import { getFormValues } from 'redux-form'
 
 const server = "http://localhost:5000/freequote"
 
@@ -31,9 +30,12 @@ class FormContainer extends React.Component {
         });
       }
 
+
+
     submitForm = (event) => {
         event.preventDefault()
-        console.log(`submitting Form: ${this.state}`);
+        console.log('submitting Form:', this.refs);
+           
         // axios post from the client to the server/freequote
         axios({
             method: 'post',

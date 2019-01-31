@@ -7,8 +7,6 @@ import Multiselect from '../multiselect';
 import 'react-widgets/dist/css/react-widgets.css'
 import { reduxForm } from 'redux-form'
 
-
-
 const FormComponent = ({ handleSubmit, services, formValues, change, pristine, reset }) => {
     return (
         <div className="flex flex-column justify-center items-center">
@@ -143,8 +141,9 @@ const FormComponent = ({ handleSubmit, services, formValues, change, pristine, r
 }
 
 const formConfiguration = {
-    form: 'my-very-own-form'
+    form: 'quote-form'
 }
+
 export default reduxForm(formConfiguration)(FormComponent)
 
 // export default FormComponent;
