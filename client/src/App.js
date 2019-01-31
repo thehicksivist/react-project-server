@@ -18,13 +18,20 @@ class App extends Component {
 				<div className="App" style={{ height: '1500px', background: 'cornflowerBlue' }}>
 					{
 						<div>
+<<<<<<< HEAD
 							<Redirect path='/' to='/home'/>
 							<Route path='/' component={Header}/>
 							<Route exact path="/home" component={Home} />
+=======
+							<Redirect from="/" to="/home" />
+							<Route path="/" component={Header} />
+							<Route exact path="/home" component={Carousel} />
+							<Route exact path="/home" component={Packages} />
+>>>>>>> 58cbcd0d9bda665bdb3273444c2cb5d4a732fa40
 							<Route exact path="/about" component={About} />
 							<Route exact path="/services" component={Services} />
 							<Route exact path="/freequote" component={Quote} />
-							<Route path="/" component={Footer}/>
+							<Route path="/" component={Footer} />
 						</div>
 					}
 				</div>
