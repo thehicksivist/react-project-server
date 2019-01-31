@@ -7,7 +7,7 @@ import Featured from './components/featured';
 import Jobs from './components/jobs';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import About from './components/About';
+import About from './components/About/About';
 import Services from './components/Services/Services';
 import Quote from './components/Quote/Quote';
 import './App.css';
