@@ -6,12 +6,14 @@ const mailer = (req,res) => {
 		<p>You have a new contact request</p>
 		<h3>Contact Details</h3>
 		<ul>
-			${console.log(req.body)}
 			<li>Name: ${req.body.name}</li>
 			<li>Address: ${req.body.address}</li>
 			<li>Suburb: ${req.body.suburb}</li>
 			<li>Email: ${req.body.email}</li>
 			<li>Phone: ${req.body.phone}</li>
+			<li>Property Type: ${req.body.propertyType}</li>
+			<li>Time of Inspection: ${req.body.timeOfInspection}</li>
+			<li>Services: ${req.body.service}</li>
 		</ul>
 		<h3>Message</h3>
 		<p>${req.body.message}</p>
@@ -45,7 +47,7 @@ const mailer = (req,res) => {
 		  }
 		  console.log('Message sent: %s', info.messageID)
 		  console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info))
-		  res.render('contact', {msg: 'Email has been sent'})
+		  res.render('contact')
 		  })
 		  
 	}
