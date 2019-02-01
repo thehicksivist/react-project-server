@@ -7,7 +7,7 @@ import Multiselect from '../multiselect';
 import 'react-widgets/dist/css/react-widgets.css'
 import { reduxForm } from 'redux-form'
 
-const FormComponent = ({ handleSubmit, services, formValues, change, pristine, reset }) => {
+const FormComponent = ({ handleSubmit, services }) => {
     return (
         <div className="flex flex-column justify-center items-center">
             <h1>Request a Free Quote</h1>
