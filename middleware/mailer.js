@@ -7,11 +7,11 @@ const mailer = (req,res) => {
 		<h3>Contact Details</h3>
 		<ul>
 			${console.log(req.body)}
-			<li>Name: ${req.body.name}</li>
-			<li>Address: ${req.body.address}</li>
-			<li>Suburb: ${req.body.suburb}</li>
-			<li>Email: ${req.body.email}</li>
-			<li>Phone: ${req.body.phone}</li>
+			<li>Name: ${req.body.firstName}</li>
+			// <li>Address: ${req.body.address}</li>
+			// <li>Suburb: ${req.body.suburb}</li>
+			// <li>Email: ${req.body.email}</li>
+			// <li>Phone: ${req.body.phone}</li>
 		</ul>
 		<h3>Message</h3>
 		<p>${req.body.message}</p>
