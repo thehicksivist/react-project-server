@@ -37,6 +37,7 @@ const quoteSchema = new Schema({
     timeOfInspection: {
         type: String
     },
+    //dateOfInspection
     created_at: {
          type: Date, 
          default: Date.now 
