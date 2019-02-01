@@ -20,15 +20,15 @@ const FormComponent = ({ handleSubmit, services }) => {
                     <div class="row">
                         <div class="col">
                             <Field
-                                name="firstName"
+                                name="name"
                                 label="Name"
                                 component={Text}
                             />
                         </div>
                         <div class="col">
                             <Field
-                                name="contactNumber"
-                                label="Contact Number"
+                                name="phone"
+                                label="Phone Number"
                                 component={Text}
                             />
                         </div>
@@ -69,7 +69,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                         </div>
                         <div class="col">
                             <Field
-                                name="servicesRequired"
+                                name="service"
                                 label="Serivces Required"
                                 component={Multiselect}
                                 data={services}
@@ -81,7 +81,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                     <div class="row">
                         <div class="col">
                             <Field
-                                name="Date of services"
+                                name="dateOfServices"
                                 label="Date of services"
                                 showTime={false}
                                 component={Datepicker}
@@ -90,7 +90,7 @@ const FormComponent = ({ handleSubmit, services }) => {
 
                         <div class="col">
                             <Field
-                                name="timeofInspection"
+                                name="timeOfInspection"
                                 label="Inspection Time"
                                 component={Select}
                                 options={{

@@ -50,7 +50,7 @@ const mailer = (req,res) => {
 		  }
 		  console.log('Message sent: %s', info.messageID)
 		  console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info))
-		  res.render('contact', {msg: 'Email has been sent'})
+		  res.render('contact')
 		  })
 		  
 	}
