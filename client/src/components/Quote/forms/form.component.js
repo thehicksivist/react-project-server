@@ -145,5 +145,3 @@ const formConfiguration = {
 }
 
 export default reduxForm(formConfiguration)(FormComponent)
-
-// export default FormComponent;

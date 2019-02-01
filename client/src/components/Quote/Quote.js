@@ -8,7 +8,7 @@ const store = configureStore();
 const Quote = () => {
     return (
         <Provider store={store}>
-            <FormContainer />
+            <FormContainer store={store} />
         </Provider>
     )
 };
