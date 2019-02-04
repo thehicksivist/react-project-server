@@ -1,5 +1,4 @@
 import React from 'react'
-import { Field, reduxForm } from 'redux-form'
 import Multiselect from 'react-widgets/lib/Multiselect'
 
 export const renderMultiselect = ({ input, data, valueField, textField }) =>

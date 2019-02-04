@@ -6,11 +6,17 @@ const mailer = (req,res) => {
 		<p>You have a new contact request</p>
 		<h3>Contact Details</h3>
 		<ul>
-			${console.log(req.body)}
+			TESTING: Below is the whole request body to see which fields are making it through the email:
+			${JSON.stringify(req.body)}
+			
 			<li>Name: ${req.body.name}</li>
 			<li>Address: ${req.body.address}</li>
 			<li>Suburb: ${req.body.suburb}</li>
 			<li>Email: ${req.body.email}</li>
+			<li>Property Type: ${req.body.propertyType}</li>
+			<li>Services Required: ${req.body.service}</li>		
+			<li>Inspection Date: ${req.body.dateOfInspection}</li>
+			<li>Inspection Time: ${req.body.timeOfInspection}</li>
 			<li>Phone: ${req.body.phone}</li>
 		</ul>
 		<h3>Message</h3>
@@ -33,7 +39,7 @@ const mailer = (req,res) => {
 	  let mailOptions = {
 		from: '"Test" , <beththeboo94@hotmail.com>', // sender address
 		to: "huythanhdao@gmail.com", // list of receivers
-		subject: "Hey sexy", // Subject line
+		subject: `Quote Request` , // Subject line
 		text: "I'm here for you", // plain text body
 		html: output // html body
 	  };
@@ -45,7 +51,7 @@ const mailer = (req,res) => {
 		  }
 		  console.log('Message sent: %s', info.messageID)
 		  console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info))
-		  res.render('contact', {msg: 'Email has been sent'})
+		  res.render('contact')
 		  })
 		  
 	}

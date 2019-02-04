@@ -12,7 +12,8 @@ export class Datepicker extends React.Component {
             focused: false
         };
     }
-
+    getValueAsString = date => (date ? date.toISOString() : '')
+    
     changeActiveDateWidget = () => {
         this.setState({
             activeDateWidget: !this.state.activeDateWidget,
@@ -20,13 +21,15 @@ export class Datepicker extends React.Component {
     }
 
     handleDateChange = (date) => {
-        this.setState({ date });
-        this.props.change(this.props.input.name, date)
+        this.setState({ date }, () => {
+            const dateStr = this.getValueAsString(this.state.date)
+            this.props.input.onChange(dateStr)
+        })
     }
 
     render() {
         return (
-            <div className="mv4 w-100">
+            <div class="container">
                 <div className="b sans-serif pv2 w-100">{this.props.label}</div>
                 <SingleDatePicker
                     date={this.state.date} // momentPropTypes.momentObj or null
