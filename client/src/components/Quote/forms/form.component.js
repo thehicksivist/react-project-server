@@ -128,17 +128,15 @@ const FormComponent = ({ handleSubmit, services }) => {
                     />
                 </div>
 
+				<Field name="comments" label="Comments" component={Text} />
 
-                <button
-                    type="submit"
-                    className="link br2 bg-blue white dim pa3 f6 sans-serif b--blue ba"
-                >
-                    Submit
-                </button>
-            </form>
-        </div>
-    );
-}
+				<button type="submit" className="link br2 bg-blue white dim pa3 f6 sans-serif b--blue ba">
+					Submit
+				</button>
+			</form>
+		</div>
+	);
+};
 
 const formConfiguration = {
     form: 'quote-form'
