@@ -29,7 +29,7 @@ class Header extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<div className="Regular shadow">
 				<Navbar />
 			</div>
 		);
