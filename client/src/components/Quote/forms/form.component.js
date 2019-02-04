@@ -119,6 +119,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                         </div>
                     </div>
                 </div>
+                Click to select Service/s Required:
                 <div class="col">
                     <Field
                         name="service"
@@ -134,8 +135,6 @@ const FormComponent = ({ handleSubmit, services }) => {
                         component={Text}
                     />
                 </div>
-
-				<Field name="comments" label="Comments" component={Text} />
 
 				<button type="submit" className="link br2 bg-blue white dim pa3 f6 sans-serif b--blue ba">
 					Submit
