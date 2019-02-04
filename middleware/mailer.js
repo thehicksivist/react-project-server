@@ -9,14 +9,15 @@ const mailer = (req,res) => {
 			TESTING: Below is the whole request body to see which fields are making it through the email:
 			${JSON.stringify(req.body)}
 			
-			<li>Name: ${req.body.firstName}</li>
+			<li>Name: ${req.body.name}</li>
 			<li>Address: ${req.body.address}</li>
 			<li>Suburb: ${req.body.suburb}</li>
+			<li>Email: ${req.body.email}</li>
 			<li>Property Type: ${req.body.propertyType}</li>
-			<li>Services Required: ${req.body.servicesRequired}</li>		
-			<li>Inspection Date: ${req.body.dateofinspection}</li>
-			<li>Inspection Time: ${req.body.timeofInspection}</li>
-			<li>Phone: ${req.body.contactNumber}</li>
+			<li>Services Required: ${req.body.service}</li>		
+			<li>Inspection Date: ${req.body.dateOfInspection}</li>
+			<li>Inspection Time: ${req.body.timeOfInspection}</li>
+			<li>Phone: ${req.body.phone}</li>
 		</ul>
 		<h3>Message</h3>
 		<p>${req.body.message}</p>
