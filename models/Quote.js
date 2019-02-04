@@ -28,9 +28,15 @@ const quoteSchema = new Schema({
         type: String,
         required: true
     },
-    //services 
-    //property type
-    //timeslot
+    service: {
+       type: Schema.ObjectId, ref: 'Service'
+    },
+    propertyType: {
+        type: String
+    },
+    timeOfInspection: {
+        type: String
+    },
     created_at: {
          type: Date, 
          default: Date.now 

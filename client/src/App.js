@@ -7,14 +7,20 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Quote from './components/Quote/Quote';
+<<<<<<< HEAD
 import Footers from './components/Footers';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+=======
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+>>>>>>> 3ed7876d39a897bc4587169a8f0d17e5b49ebf33
 import './App.css';
 
 class App extends Component {
 	render() {
 		return (
 			<Router>
+<<<<<<< HEAD
 				<div className="App">
 					<div>
 						<Header className="navbar-fixed-top" />
@@ -26,6 +32,23 @@ class App extends Component {
 					<div>
 						<Footers />
 					</div>
+=======
+				<div className="App" style={{ height: '100%', background: 'cornflowerBlue' }}>
+					{
+						<div>
+							<div>
+								<Header/>
+							</div>
+							<Route exact path="/" component={Home} />
+							<Route exact path="/about" component={About} />
+							<Route exact path="/services" component={Services} />
+							<Route exact path="/freequote" component={Quote} />
+							<div>
+								<Footer/>
+							</div>
+						</div>
+					}
+>>>>>>> 3ed7876d39a897bc4587169a8f0d17e5b49ebf33
 				</div>
 			</Router>
 		);
