@@ -16,7 +16,7 @@ export const Select = props => {
         return (
             <div className="mv3 w-100">
                 <div className="b sans-serif pv2 w-100">{props.label}</div>
-                <select {...props.input} className="pa2 input-reset ba b--black-40 w-100">
+                <select {...props.input} className="w-100 f6 h4 bg-white ma1 b--black-20">
                     <option value="">Select</option>
                     {Object.keys(props.options).map(renderSelectOptions)}
                 </select>
