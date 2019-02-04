@@ -1,64 +1,15 @@
 import React from 'react';
 import FormComponent from './form.component';
 import axios from 'axios';
-import { connect } from 'react-redux'
 
 const server = 'http://localhost:5000/freequote';
 
 class FormContainer extends React.Component {
-<<<<<<< HEAD
-	state = {
-		services: []
-	};
-
-	submitForm = (event) => {
-		event.preventDefault();
-		console.log('submitting Form: ');
-		// axios post from the client to the server/freequote
-		axios({
-			method: 'post',
-			url: `${server}`,
-			// form fields to be stored in state, then passed through from there
-			data: this.data,
-			config: { headers: { 'Content-Type': 'multipart/form-data' } }
-		})
-			.then(function(response) {
-				//handle success
-				console.log(response);
-			})
-			.catch(function(response) {
-				//handle error
-				console.log(response);
-			});
-	};
-
-	componentDidMount() {
-		axios.get('http://localhost:5000/services').then((response) => {
-			this.setState({ services: response.data.map((x) => x.name) });
-		});
-		// axios get list from API
-
-		// set local state
-	}
-
-	render() {
-		return <FormComponent handleSubmit={this.submitForm} services={this.state.services} />;
-	}
-}
-
-const formConfiguration = {
-	form: 'my-very-own-form'
-};
-
-export default reduxForm(formConfiguration)(FormContainer);
-=======
 
     constructor(props) {
         super(props);
         this.state = {
-            services: [],
-            firstName: '',
-            contactNumber: ''
+            services: []
         };
     
         this.handleInputChange = this.handleInputChange.bind(this);
@@ -117,4 +68,3 @@ export default reduxForm(formConfiguration)(FormContainer);
 }
 
 export default FormContainer
->>>>>>> 3ed7876d39a897bc4587169a8f0d17e5b49ebf33
