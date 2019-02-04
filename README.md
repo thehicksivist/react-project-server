@@ -12,12 +12,14 @@ This is a web-app for Troys five star mowing business where viewers can see:
     Form to request a quote.
 
 ###Problem definition / purpose
-Our client was relying soley on facebook and word of mouth to get potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
+Our client was relying soley on facebook and word of mouth to attract potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
 
 ###Functionality / features
 
 
 ###Screenshots
+
+
 ###Tech stack (e.g. html, css, deployment platform, etc)
 
 
@@ -27,8 +29,40 @@ Our client was relying soley on facebook and word of mouth to get potential clie
 ##Design 
 ###Design process
 ###User stories
+
+As anonymous I can: 
+
+•	View a homepage with before and after shots of lawns 
+•	See a map of where mower man is placed with surrounding areas
+•	Navigate site using nav-bar links including:
+    o	Home
+    o	About
+    o	Feedback
+    o	Quote
+
+•	View  his contact details 
+
+
+As anonymous when Quote is clicked I can:
+
+•	Fill out details that will include:
+    o	Address and Suburb
+    o	Property type
+    o	Email
+    o	Name
+    o	Date of potential booking
+    o	Time of potential booking
+    o	Pick the services wanted from a dropdown list
+    o	Phone number
+    o	Personalise with a message
+
+
 ###A workflow diagram of the user journey/s.
+
+![user flow diagram](./screenshots/user-flow-diagram.jpg)
+
 ###Wireframes
+
 ###Database Entity Relationship Diagrams
 ###Data Flow Diagram
 ###OO design documentation
