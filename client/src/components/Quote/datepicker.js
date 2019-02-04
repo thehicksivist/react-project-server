@@ -12,7 +12,8 @@ export class Datepicker extends React.Component {
             focused: false
         };
     }
-
+    getValueAsString = date => (date ? date.toISOString() : '')
+    
     changeActiveDateWidget = () => {
         this.setState({
             activeDateWidget: !this.state.activeDateWidget,
@@ -20,8 +21,10 @@ export class Datepicker extends React.Component {
     }
 
     handleDateChange = (date) => {
-        this.setState({ date });
-        // this.props.change(this.props.input.name, date)
+        this.setState({ date }, () => {
+            const dateStr = this.getValueAsString(this.state.date)
+            this.props.input.onChange(dateStr)
+        })
     }
 
     render() {

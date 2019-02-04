@@ -12,6 +12,7 @@ const mailer = (req,res) => {
 			<li>Name: ${req.body.name}</li>
 			<li>Address: ${req.body.address}</li>
 			<li>Suburb: ${req.body.suburb}</li>
+			<li>Email: ${req.body.email}</li>
 			<li>Property Type: ${req.body.propertyType}</li>
 			<li>Services Required: ${req.body.service}</li>		
 			<li>Inspection Date: ${req.body.dateOfInspection}</li>

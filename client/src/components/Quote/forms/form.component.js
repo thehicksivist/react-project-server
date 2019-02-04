@@ -69,10 +69,9 @@ const FormComponent = ({ handleSubmit, services }) => {
                         </div>
                         <div class="col">
                             <Field
-                                name="service"
-                                label="Serivces Required"
-                                component={Multiselect}
-                                data={services}
+                                name="email"
+                                label="Email"
+                                component={Text}
                             />
                         </div>
                     </div>
@@ -81,7 +80,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                     <div class="row">
                         <div class="col">
                             <Field
-                                name="dateOfServices"
+                                name="dateOfInspection"
                                 label="Date of services"
                                 showTime={false}
                                 component={Datepicker}
@@ -119,6 +118,14 @@ const FormComponent = ({ handleSubmit, services }) => {
                             />
                         </div>
                     </div>
+                </div>
+                <div class="col">
+                    <Field
+                        name="service"
+                        label="Services Required"
+                        component={Multiselect}
+                        data={services}
+                    />
                 </div>
                 <div class="container">
                     <Field
