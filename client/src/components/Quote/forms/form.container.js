@@ -11,9 +11,9 @@ class FormContainer extends React.Component {
         this.state = {
             services: []
         };
-    
+
         this.handleInputChange = this.handleInputChange.bind(this);
-      }
+    }
 
     handleInputChange(event) {
         const target = event.target;
@@ -21,9 +21,9 @@ class FormContainer extends React.Component {
         const name = target.name;
 
         console.log(name)
-    
+
         this.setState({
-          [name]: value
+            [name]: value
         });
     }
 
@@ -32,14 +32,14 @@ class FormContainer extends React.Component {
         let formState = this.props.store.getState()
         let formFields = formState.form['quote-form'].values
         console.log('submitting Form:', formFields);
-           
+
         // axios post from the client to the server/freequote
         axios({
             method: 'post',
             url: `${server}`,
             data: formFields,
-            config: { headers: {'Content-Type': 'application/json' }}
-            })
+            config: { headers: { 'Content-Type': 'application/json' } }
+        })
             .then(function (response) {
                 //handle success
                 console.log('axios post success', response);
@@ -48,13 +48,13 @@ class FormContainer extends React.Component {
                 //handle error
                 console.log('axios post catch', formFields, response);
             });
-      }
+    }
 
     componentDidMount() {
         axios.get('http://localhost:5000/services')
-        .then(response => {
-            this.setState({ services: response.data.map(x => x.name) })
-        })
+            .then(response => {
+                this.setState({ services: response.data.map(x => x.name) })
+            })
     }
 
     render() {
