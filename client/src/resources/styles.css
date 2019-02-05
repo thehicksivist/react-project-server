@@ -1,14 +1,7 @@
 body {
-<<<<<<< HEAD
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-=======
-    padding:0;
-    margin:0;
-    height:100%;
-    font-family: 'Roboto', sans-serif;
->>>>>>> 3ed7876d39a897bc4587169a8f0d17e5b49ebf33
 }
 
 .font_righteous {
@@ -70,22 +63,11 @@ header .header_logo_title {
 ======================*/
 
 footer {
-<<<<<<< HEAD
 	padding: 50px 0px;
 	text-align: center;
 	font-size: 60px;
 	color: #ffffff;
 	background: #28a745;
-=======
-    padding:10px 0px;
-    text-align: center;
-    font-size: 60px;
-    color:#ffffff;
-    background: green;
-    width: 100%;
-    bottom: 0;
-    left: 0;
->>>>>>> 3ed7876d39a897bc4587169a8f0d17e5b49ebf33
 }
 
 footer .footer_copyright {

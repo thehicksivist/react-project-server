@@ -1,7 +1,6 @@
 import React from 'react';
 import FormComponent from './form.component';
 import axios from 'axios';
-import { connect } from 'react-redux';
 
 const server = 'http://localhost:5000/freequote';
 
@@ -9,9 +8,7 @@ class FormContainer extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			services: [],
-			firstName: '',
-			contactNumber: ''
+			services: []
 		};
 
 		this.handleInputChange = this.handleInputChange.bind(this);

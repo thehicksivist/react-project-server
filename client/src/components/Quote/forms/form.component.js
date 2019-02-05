@@ -6,23 +6,30 @@ import Datepicker from '../datepicker';
 import Multiselect from '../multiselect';
 import 'react-widgets/dist/css/react-widgets.css'
 import { reduxForm } from 'redux-form'
+import '../formstyle.css';
+import header from '../header.jpg';
+import { required } from '../form.validators'
+
 
 const FormComponent = ({ handleSubmit, services }) => {
     return (
-        <div className="flex flex-column justify-center items-center">
-            <h1>Request a Free Quote</h1>
+        <div class="flex flex-column justify-center items-center">
+            <div class="image">
+                <img src={header} width="1000" height="600" />
+            </div>
             <form
                 className="w-80"
                 onSubmit={handleSubmit}
             >
-
-                <div class="container">
-                    <div class="row">
+                <h1>Request a Free Quote</h1>
+                <div className="container">
+                    <div className="row">
                         <div class="col">
                             <Field
                                 name="name"
                                 label="Name"
                                 component={Text}
+                                validate={required}
                             />
                         </div>
                         <div class="col">
@@ -30,6 +37,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 name="phone"
                                 label="Phone Number"
                                 component={Text}
+                                validate={required}
                             />
                         </div>
                     </div>
@@ -42,6 +50,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 name="address"
                                 label="Address"
                                 component={Text}
+                                validate={required}
                             />
                         </div>
                         <div class="col">
@@ -49,6 +58,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 name="suburb"
                                 label="Suburb"
                                 component={Text}
+                                validate={required}
                             />
                         </div>
                     </div>
@@ -57,22 +67,10 @@ const FormComponent = ({ handleSubmit, services }) => {
                     <div class="row">
                         <div class="col">
                             <Field
-                                name="propertyType"
-                                label="Property Type"
-                                component={Select}
-                                options={{
-                                    residential: "Residential",
-                                    commerical: "Commercial",
-                                    acerage: "Acerage"
-                                }}
-                            />
-                        </div>
-                        <div class="col">
-                            <Field
-                                name="service"
-                                label="Serivces Required"
-                                component={Multiselect}
-                                data={services}
+                                name="email"
+                                label="Email"
+                                component={Text}
+                                validate={required}
                             />
                         </div>
                     </div>
@@ -80,18 +78,10 @@ const FormComponent = ({ handleSubmit, services }) => {
                 <div class="container">
                     <div class="row">
                         <div class="col">
+                            <title>Inspection Time</title>
                             <Field
-                                name="dateOfServices"
-                                label="Date of services"
-                                showTime={false}
-                                component={Datepicker}
-                            />
-                        </div>
-
-                        <div class="col">
-                            <Field
+                                label="inepsction"
                                 name="timeOfInspection"
-                                label="Inspection Time"
                                 component={Select}
                                 options={{
                                     seven: "7:00am",
@@ -118,6 +108,45 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 }}
                             />
                         </div>
+                        <div class="col">
+                            <title>Inspection Date</title>
+                            <Field
+                                name="dateOfInspection"
+                                label="Date of services"
+                                showTime={false}
+                                component={Datepicker}
+                            />
+                        </div>
+                        <div class="col">
+                            <title>Property Type</title>
+                            <Field
+                                name="propertyType"
+                                label="Property Type"
+                                component={Select}
+                                options={{
+                                    residential: "Residential",
+                                    commerical: "Commercial",
+                                    acerage: "Acerage"
+                                }}
+                            />
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <title>Click to select Service/s Required:</title>
+                            <div class="col">
+                                <Field
+                                    name="service"
+                                    label="Services Required"
+                                    component={Multiselect}
+                                    data={services}
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="container">
@@ -128,14 +157,12 @@ const FormComponent = ({ handleSubmit, services }) => {
                     />
                 </div>
 
-				<Field name="comments" label="Comments" component={Text} />
-
-				<button type="submit" className="link br2 bg-blue white dim pa3 f6 sans-serif b--blue ba">
-					Submit
+                <button type="submit" className="link br2 bg-blue white dim pa3 f6 sans-serif b--blue ba">
+                    Submit
 				</button>
-			</form>
-		</div>
-	);
+            </form>
+        </div>
+    );
 };
 
 const formConfiguration = {
