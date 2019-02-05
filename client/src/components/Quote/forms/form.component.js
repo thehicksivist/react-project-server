@@ -11,10 +11,13 @@ import header from '../header.jpg';
 import { required } from '../form.validators'
 
 
+
 const FormComponent = ({ handleSubmit, services }) => {
+
+
     return (
-        <div class="flex flex-column justify-center items-center">
-            <div class="image">
+        <div style={{ background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1548814181/Five%20Star/slide_one.png)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} class="flex flex-column justify-center items-center mb-5 mt-5" >
+            <div className="image">
                 <img src={header} width="1000" height="600" />
             </div>
             <form
@@ -22,9 +25,9 @@ const FormComponent = ({ handleSubmit, services }) => {
                 onSubmit={handleSubmit}
             >
                 <h1>Request a Free Quote</h1>
-                <div className="container">
+                <div className="container mt-4 mb-4">
                     <div className="row">
-                        <div class="col">
+                        <div className="col">
                             <Field
                                 name="name"
                                 label="Name"
@@ -32,7 +35,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 validate={required}
                             />
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <Field
                                 name="phone"
                                 label="Phone Number"
@@ -43,9 +46,9 @@ const FormComponent = ({ handleSubmit, services }) => {
                     </div>
                 </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
                             <Field
                                 name="address"
                                 label="Address"
@@ -53,7 +56,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 validate={required}
                             />
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <Field
                                 name="suburb"
                                 label="Suburb"
@@ -63,9 +66,9 @@ const FormComponent = ({ handleSubmit, services }) => {
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
                             <Field
                                 name="email"
                                 label="Email"
@@ -75,9 +78,9 @@ const FormComponent = ({ handleSubmit, services }) => {
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
                             <title>Inspection Time</title>
                             <Field
                                 label="inepsction"
@@ -108,7 +111,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 }}
                             />
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <title>Inspection Date</title>
                             <Field
                                 name="dateOfInspection"
@@ -117,7 +120,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 component={Datepicker}
                             />
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <title>Property Type</title>
                             <Field
                                 name="propertyType"
@@ -133,11 +136,11 @@ const FormComponent = ({ handleSubmit, services }) => {
                     </div>
                 </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
+                <div className="container">
+                    <div className="row">
+                        <div clasNames="col">
                             <title>Click to select Service/s Required:</title>
-                            <div class="col">
+                            <div className="col">
                                 <Field
                                     name="service"
                                     label="Services Required"
@@ -148,7 +151,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div className="container">
                     <Field
                         name="message"
                         label="Message"
@@ -160,7 +163,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                     Submit
 				</button>
             </form>
-        </div>
+        </div >
     );
 };
 
