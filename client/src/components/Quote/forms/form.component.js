@@ -139,7 +139,7 @@ const FormComponent = ({ handleSubmit, services }) => {
 
                 <div className="container">
                     <div className="row">
-                        <div clasNames="col">
+                        <div classNames="col">
                             <title>Click to select Service/s Required:</title>
                             <div className="col">
                                 <Field
