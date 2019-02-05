@@ -15,6 +15,7 @@ import { required } from '../form.validators'
 const FormComponent = ({ handleSubmit, services }) => {
 
 
+
     return (
         <div style={{ background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1548814181/Five%20Star/slide_one.png)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} class="flex flex-column justify-center items-center mb-5 mt-5" >
             <div className="image">
@@ -83,7 +84,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                         <div className="col">
                             <title>Inspection Time</title>
                             <Field
-                                label="inepsction"
+                                label="inspection"
                                 name="timeOfInspection"
                                 component={Select}
                                 options={{
@@ -138,19 +139,13 @@ const FormComponent = ({ handleSubmit, services }) => {
                 </div>
 
                 <div className="container">
-                    <div className="row">
-                        <div clasNames="col">
-                            <title>Click to select Service/s Required:</title>
-                            <div className="col">
-                                <Field
-                                    name="service"
-                                    label="Services Required"
-                                    component={Multiselect}
-                                    data={services}
-                                />
-                            </div>
-                        </div>
-                    </div>
+                    <title>Click to select Service/s Required:</title>
+                    <Field
+                        name="service"
+                        label="Services Required"
+                        component={Multiselect}
+                        data={services}
+                    />
                 </div>
                 <div className="container">
                     <Field
@@ -162,8 +157,8 @@ const FormComponent = ({ handleSubmit, services }) => {
 
                 <button type="submit" className="link br2 bg-blue white dim pa3 f6 sans-serif b--blue ba">
                     Submit
-				</button>
-            </form>
+              </button>
+            </form >
         </div >
     );
 };
