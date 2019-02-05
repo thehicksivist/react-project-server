@@ -6,31 +6,30 @@ const Schema = mongoose.Schema
 const quoteSchema = new Schema({
     name: {
         type: String,
-        required: true 
+        
     },
     address: {
         type: String,
-        required: true 
+         
     },
     suburb: {
         type: String,
-        required: true
+        
     },
     email: {
         type: String,
-        required: true
+        
     },
     phone: {
         type: String,
-        required: true
+        
     },
     message: {
         type: String,
-        required: true
+        
     },
-    service: {
-       type: Schema.ObjectId, ref: 'Service'
-    },
+    service:[String]
+    ,
     propertyType: {
         type: String
     },

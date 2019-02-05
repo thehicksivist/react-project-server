@@ -131,7 +131,7 @@ const FormComponent = ({ handleSubmit, services }) => {
 
                         </div>
                         Click to select Service/s Required:
-                <div class="col">
+                        <div class="col">
                             <Field
                                 name="service"
                                 label="Services Required"
