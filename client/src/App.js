@@ -23,6 +23,7 @@ class App extends Component {
 					<Route exact path="/about" component={About} />
 					<Route exact path="/services" component={Services} />
 					<Route exact path="/freequote" component={Quote} />
+
 					<div>
 						<Footers />
 					</div>
