@@ -12,7 +12,7 @@
   *Form to request a quote.
 
 ### Problem definition / purpose
-#### Our client was relying soley on facebook and word of mouth to attract potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
+Our client was relying soley on facebook and word of mouth to attract potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
 
 ### Functionality / features
 
@@ -86,9 +86,45 @@
 
 ### Wireframes
 
+![home-page-wireframe](https://user-images.githubusercontent.com/42559562/52311383-77307680-29f2-11e9-95f2-ce4da939f55a.png)
+
+![about-page](https://user-images.githubusercontent.com/42559562/52311391-7c8dc100-29f2-11e9-8002-c47c6e29bcce.png)
+
+![services](https://user-images.githubusercontent.com/42559562/52311396-83b4cf00-29f2-11e9-926f-d4d373cdac64.png)
+
+![form-wireframe](https://user-images.githubusercontent.com/42559562/52311399-87e0ec80-29f2-11e9-95c5-491595847777.png)
+
+![homepage-smallmobile](https://user-images.githubusercontent.com/42559562/52311405-8c0d0a00-29f2-11e9-88ee-2f84cbf37fa5.png)
+
 ### Database Entity Relationship Diagrams
+
+![entity relationship diagram - team 4](https://user-images.githubusercontent.com/42559562/52311127-ab576780-29f1-11e9-974c-03e246921f82.png)
+
+
 ### Data Flow Diagram
 ### OO design documentation
+
+(Components and which are function and which classes and props passed and state.)
+
+The design of this project in React required numerous components to be used across the site. 
+
+The layout of the website, including the navbar, footer and home page are built utilising components. 
+
+Navbar
+
+Footer
+
+Homepage
+
+The Quote Form Desing ustilises both a component, which defines the layout of the form, as well as a form container which determines the actions requried for the form to complete.
+
+There are a number of 
+
+
+
+
+
+
 
 
 ## Project Management & Planning process including,
@@ -100,13 +136,11 @@
 ## Short Answer questions 
 ### 1. What are the most important aspects of quality software?
 
-#### Functionality, structural quality and the process of development for apps greatly contribute to creating quality software.
+Functionality, structural quality and the process of development for apps greatly contribute to creating quality software.
+Functionality is defined as how easy the app is to use. In consumer applications, if the app has a well defined user workflow, complete with a good aesthetic, the consumer will be more inclined to use said app.  If an app has a convoluted workflow, regardless of its aesthetics, it will prevent the user from utilising the apps full functionality.  
 
-#### Functionality is defined as how easy the app is to use. In consumer applications, if the app has a well defined user workflow, complete with a good aesthetic, the consumer will be more inclined to use said app.  If an app has a convoluted workflow, regardless of its aesthetics, it will prevent the user from utilising the apps full functionality.  
+A way to ensure the functionality of an application can be through writing automate tests for the app. This will assist in identifying any issues that can occur when a user is operating the app. 
 
-#### A way to ensure the functionality of an application can be through writing automate tests for the app. This will assist in identifying any issues that can occur when a user is operating the app. 
-
-#### Testing your application also leads to developing a structural quality in the code.  
 
 #### By making sure the code is readable and understandable for others can make the application flow from legacy code to new written code with little confusion.   
 #### Having a strong structure for the code also assists in developing security for the app. 
@@ -136,5 +170,6 @@
 ### 3. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
 
-###4. Within your own project what knowledge or skills were required to complete your project, and overcome challenges?
+### 4. Within your own project what knowledge or skills were required to complete your project, and overcome challenges?
+
 ### 5.Evaluate how effective your knowledge and skills were this project, using examples, and suggest changes or improvements for future projects of a similar nature?
