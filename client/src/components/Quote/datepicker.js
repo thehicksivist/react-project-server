@@ -29,7 +29,7 @@ export class Datepicker extends React.Component {
 
     render() {
         return (
-            <div class="container">
+            <div className="container">
                 {/* <div className="b sans-serif pv2 w-100">{this.props.label}</div> */}
                 <SingleDatePicker
                     date={this.state.date} // momentPropTypes.momentObj or null
