@@ -7,8 +7,8 @@ import Multiselect from '../multiselect';
 import 'react-widgets/dist/css/react-widgets.css';
 import { reduxForm } from 'redux-form';
 import '../formstyle.css';
-import header from '../header.jpg';
-import { required } from '../form.validators';
+import header from '../header.png';
+import { required } from '../form.validators'
 
 const FormComponent = ({ handleSubmit, services }) => {
 	return (
@@ -113,7 +113,7 @@ const FormComponent = ({ handleSubmit, services }) => {
 
 
     return (
-        <div style={{ background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1548814181/Five%20Star/slide_one.png)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} className="flex flex-column justify-center items-center mb-5 mt-5" >
+        <div style={{ background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1549408306/Five%20Star/prograss_res.jpg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} class="flex flex-column justify-center items-center mb-5 mt-5" >
             <div className="image">
                 <img src={header} width="1000" height="600" />
             </div>
