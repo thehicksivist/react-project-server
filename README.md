@@ -168,12 +168,12 @@ Functionality is defined as how easy the app is to use. In consumer applications
 A way to ensure the functionality of an application can be through writing automate tests for the app. This will assist in identifying any issues that can occur when a user is operating the app. 
 
 
-#### By making sure the code is readable and understandable for others can make the application flow from legacy code to new written code with little confusion.   
-#### Having a strong structure for the code also assists in developing security for the app. 
+By making sure the code is readable and understandable for others can make the application flow from legacy code to new written code with little confusion.   
+Having a strong structure for the code also assists in developing security for the app. 
 
-#### Developing code that guards against accidental security vulnerabilities such as logic flaws or defects can be helped by identifying previous flaws and taking proactive steps that can reduce the vulnerabilities.  
+Developing code that guards against accidental security vulnerabilities such as logic flaws or defects can be helped by identifying previous flaws and taking proactive steps that can reduce the vulnerabilities.  
 
-#### Lastly, the quality of the development process will affect the longevity of the app. By making the app development process repeatable will ensure that there can be further iterations of the product or future developments on it. A repeatable development process includes the project management of the app, such as meeting deadlines and budgets. 
+Lastly, the quality of the development process will affect the longevity of the app. By making the app development process repeatable will ensure that there can be further iterations of the product or future developments on it. A repeatable development process includes the project management of the app, such as meeting deadlines and budgets. 
 
 ### 2. What libraries are being used in the app and why?
 
