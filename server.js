@@ -31,6 +31,7 @@ app.use(routes);
 // app.get('/', (req, res, next) => {
 // 	res.send('<h1>team4everaintclever</h1>');
 // });
+
 app.use('/services', require('./routes/api/services'));
 // app.use('/quotes', require('./routes/api/quotes'))
 
