@@ -102,23 +102,49 @@ Our client was relying soley on facebook and word of mouth to attract potential 
 
 
 ### Data Flow Diagram
+
+![data flow diagram](https://user-images.githubusercontent.com/42559562/52323525-140e0680-2a29-11e9-8f15-42f7a8471f0a.jpg)
+
 ### OO design documentation
 
-(Components and which are function and which classes and props passed and state.)
+The design of this project in React required numerous components to be used across the site. The layout of the website, including the navbar, footer and home page and the quote form are built utilising components.
 
-The design of this project in React required numerous components to be used across the site. 
+Navbar, footer and home page are individual components which define the layout of each page with classes. 
 
-The layout of the website, including the navbar, footer and home page are built utilising components. 
 
-Navbar
+Quote Form Components
 
-Footer
+The quote form utilises both a component, which defines the layout of the form, as well as a form container which determines the actions required for the form to complete.
+This was the design layout required for utilising the Redux Form library. 
 
-Homepage
+The components designed for each field input of the form are:
 
-The Quote Form Desing ustilises both a component, which defines the layout of the form, as well as a form container which determines the actions requried for the form to complete.
+Text
 
-There are a number of 
+A simple text input field for the user to enter information. Simple validation of the text input is also implemented.
+The text component utilises input as a props, which change depending on the value of what the user inputs.
+
+Select
+
+‘Select’, allows the user to choose from a list of predefined values in filling out the quote form. 
+The select component is utilised in the for the ‘property type’ and the ‘inspection time’.
+
+Select utilises option as a prop, as well as a key and index for the  options rendering.The data input for the predefined select values are hardcoded as an array in the form.component
+
+
+Multi select
+The ‘multi select’ component, utilises rendering capabilities from the React widgets library. This component allows the user to select or deselect possible service options. 
+
+‘Multi select’ also requires logic from the React widgets library , which will pull in values for input, data, value field and textfield. 
+
+Unlike the ‘Select’ component which utilises an array for the data, ‘Multi select’ requires Axios GET to retrieve the services data which are stored in the database. 
+
+
+Date picker
+
+‘Date picker’ is also a React widget. It also required a localiser library, ‘Moment’ to help define the states within the component. ‘Date picker’ utilises state to define the date as well as the date changes. 
+
+
 
 
 
