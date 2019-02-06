@@ -90,6 +90,28 @@
 ####Lastly, the quality of the development process will affect the longevity of the app. By making the app development process repeatable will ensure that there can be further iterations of the product or future developments on it. A repeatable development process includes the project management of the app, such as meeting deadlines and budgets. 
 
 ###2. What libraries are being used in the app and why?
+
+#### • Bootstrap 4 – is a CSS framework used for styling responsive, mobile-first websites. This made it easier to style all our pages in a global format.
+  *React.js – is a Javascript library use for building efficient and flexible user interfaces. We used it for its component feature, allowing us to easily structure our code and have it built to maximise extensibility.
+  *Nodemailer – is a module for Node.js for ‘easy as cake’ email sending. We used it to forward an email to the business owner from a form on the website which can be filled out by any visitor.
+  *Redux – is a state container for javascript applications which helps you manage the stored and displayed data and how you respond to user actions.
+  *Axios - is a Javascript library used to make HTTP requests from node.js or XMLHttpRequests from the browser that also supports the ES6 Promise API
+  *Concurrently – is a node.js package used to run multiple commands conurrently. It allows for easier testing during development, as there is only one terminal needed to run the servers.
+  *Cors - is a node.js package for providing a middleware that can be used to enable cross-origin resource sharing with various options
+  *Express - is a node.js framework that facilitates the rapid development of web and mobile applications. It allows the setup of middlewares to respond to http requests, defines a routing table to perform actions and allows dynamic rendering of html pages based on arguments and templates.
+  *Express-router – is a library for organising the back-end routes of an express application. It helps us set up and use routes quickly and effectively.
+  *React-router-dom – is an extended version of react-router library, which enables dynamic route matching to keep your UI in sync with your URL
+  *React-reveal - is an animation framework for React. It's MIT licensed, has a tiny footprint and written specifically for React in ES6. It is used to create various reveal-on-scroll animations in your application.
+  *React-slick – is an image carousel component used to display a gallery of images in an animated slider.
+  *Cloudinary – is a cloud-based image and video management platform used to store and serve content to web applications.
+  *Moment – is a date library for parsing, validating, manipulating and formatting dates.
+  *React-widgets – is a set of extensible and accessible form inputs built for react
+
 ###3. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 ###4. Within your own project what knowledge or skills were required to complete your project, and overcome challenges?
+
+
 ###5.Evaluate how effective your knowledge and skills were this project, using examples, and suggest changes or improvements for future projects of a similar nature?
+
+### James:
+#### I understand the individual libraries and frameworks but have difficulty with the configuration between them. Also, when I see something built with different syntax as to how we learnt it in class I feel very lost. For example, I was referencing the slides and lectures for react and redux to work out how to get information from the store state, but the configuration was completely different in the store and reducer files so I had no idea how it was working. I had a similar issue with an onSubmit function and handleSubmit function, where I could see where they were initially defined, so could not distinguish how to manipulate their functionality. The projects themselves I think are good. I think more class time could be spent on understanding HTTP requests and how to deconstruct pre-defined functions and classes in APIs/ middleware/ imported libraries.
