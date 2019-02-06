@@ -136,8 +136,6 @@ const FormComponent = ({ handleSubmit, services }) => {
                 </div>
 
                 <div className="container">
-                    <div className="row">
-                        <div className="col">
                             <title>Click to select Service/s Required:</title>
                             <div className="col">
                                 <Field
@@ -147,8 +145,6 @@ const FormComponent = ({ handleSubmit, services }) => {
                                     data={services}
                                 />
                             </div>
-                        </div>
-                    </div>
                 </div>
                 <div className="container">
                     <Field
