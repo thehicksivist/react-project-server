@@ -78,6 +78,28 @@ Our client was relying soley on facebook and word of mouth to attract potential 
 ### Data Flow Diagram
 ### OO design documentation
 
+(Components and which are function and which classes and props passed and state.)
+
+The design of this project in React required numerous components to be used across the site. 
+
+The layout of the website, including the navbar, footer and home page are built utilising components. 
+
+Navbar
+
+Footer
+
+Homepage
+
+The Quote Form Desing ustilises both a component, which defines the layout of the form, as well as a form container which determines the actions requried for the form to complete.
+
+There are a number of 
+
+
+
+
+
+
+
 
 ## Project Management & Planning process including,
 ### Project plan & timeline
