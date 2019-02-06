@@ -83,7 +83,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                         <div className="col">
                             <title>Inspection Time</title>
                             <Field
-                                label="inepsction"
+                                label="inspection"
                                 name="timeOfInspection"
                                 component={Select}
                                 options={{
