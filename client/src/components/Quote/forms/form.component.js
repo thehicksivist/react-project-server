@@ -10,15 +10,13 @@ import '../formstyle.css';
 import header from '../header.png';
 import { required } from '../form.validators'
 
-
-
 const FormComponent = ({ handleSubmit, services }) => {
 
 
     return (
-           <div style={{ background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1549408306/Five%20Star/prograss_res.jpg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} className="flex flex-column justify-center items-center mb-5 mt-5" >
+           <div style={{ background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1549408306/Five%20Star/prograss_res.jpg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} className="flex flex-column justify-center items-center mb-5 mt-5" alt="">
             <div className="image">
-                <img src={header} width="1000" height="600" />
+                <img src={header} width="1000" height="600" alt=""/>
             </div>
             <form
                 className="w-80"
