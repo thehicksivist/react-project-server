@@ -6,7 +6,7 @@
 
 ## Description of Project
 #### This is a web-app for Troys five star mowing business where viewers can see: 
-  *services
+  *Services
   *Feedback
   *Location 
   *Form to request a quote.
