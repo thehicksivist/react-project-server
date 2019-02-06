@@ -41,6 +41,7 @@ class FormContainer extends React.Component {
 		})
 			.then(function(response) {
 				//handle success
+				alert('Form submitted!');
 				console.log('axios post success', response);
 			})
 			.catch(function(response) {
