@@ -6,21 +6,21 @@
 
 ## Description of Project
 #### This is a web-app for Troys five star mowing business where viewers can see: 
- *Services
- *Feedback
- *Location 
- *Form to request a quote.
+   *Services
+   *Feedback
+   *Location 
+   *Form to request a quote.
   
 ### Problem definition / purpose
 Our client was relying soley on facebook and word of mouth to attract potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
 
 ### Functionality / features
 We have built Five-Star Mowing’s business website with the following pages and content: 
-Home → carousel of images of completed jobs, brief list of services, map showing business base location
-About → an image of the business owner and short description of the business
-Services → a full list of the services provided by the business
-Feedback → clients can leave feedback about the completed jobs
-Quote → contains an image of the process of quoting and booking, and has a form that a visitor can fill out and submit to request a job quote, which sends an email to the business owner with the details required
+  *Home → carousel of images of completed jobs, brief list of services, map showing business base location
+  *About → an image of the business owner and short description of the business
+  *Services → a full list of the services provided by the business
+  *Feedback → clients can leave feedback about the completed jobs
+  *Quote → contains an image of the process of quoting and booking, and has a form that a visitor can fill out and submit to request a job quote, which sends an email to the business owner with the details required
 
 ### Screenshots
 
