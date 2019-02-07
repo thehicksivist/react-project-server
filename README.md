@@ -53,7 +53,7 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
-  * MongoDB → The database containing a list of services which is pulled into the quote form page, and the quote forms that have been filled out and submitted.
+  * MongoDB+Mlab → The database containing a list of services which is pulled into the quote form page, and the quote forms that have been filled out and submitted.
   * Node+Express → Node.js is the runtime environment used during development, and Express.js is the application framework built on top of Node to enable the functionality for creating the server-side of our application.
   * React → React.js is a Javascript library that was used to build the front-end of our application, using its component system as the tool for disaplying information effectively and efficiently.
   * HTML+JSX → HTML-like syntax was used in JSX format for creating the core structure of our components built with React.
@@ -64,16 +64,16 @@ We have built Five-Star Mowing’s business website with the following pages and
 ### Instructions on how to setup, configure, deploy and use your App.
 
 ####Developer perspective;
-  * clone the git repo from https://github.com/thanhthedev/react-project-server
-  * open the project directory
-  * open a terminal/ console window
-  * in the console; npm install
-  * once that has completed; cd client
+  * Clone the git repo from https://github.com/thanhthedev/react-project-server
+  * Open the project directory
+  * Open a terminal/ console window
+  * In the console; npm install
+  * Once that has completed; cd client
   * npm install
   * cd ..
-  * open the project in a source code editor like Vscode
-  * open config/keys_dev.js
-  * replace the database URI with your own, for example a link to a database on Mlab.com
+  * Open the project in a source code editor like Vscode
+  * Open config/keys_dev.js
+  * Replace the database URI with your own, for example a link to a database on Mlab.com
   * Ready to Go!
 
 ####End user;
