@@ -24,6 +24,7 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 ### Screenshots
 
+#### Application Screenshots:
 #### Mock up of homepage
 ![home-page-mock](https://user-images.githubusercontent.com/38389703/52257675-6d156600-2967-11e9-8e36-d51ad5304b7e.png)
 
@@ -50,6 +51,20 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 #### Services page
 ![services-page](https://user-images.githubusercontent.com/38389703/52313847-da72d680-29fb-11e9-8981-2f46882be35c.png)
+
+#### Testing Screenshots:
+![testing screenshot 1 initial component rendering](https://user-images.githubusercontent.com/42342586/52385260-7704a980-2acc-11e9-9f10-1c8f74e28a71.png)
+![testing screenshot 2 get services to form](https://user-images.githubusercontent.com/42342586/52385261-779d4000-2acc-11e9-8219-5856c7a74935.png)
+![testing screenshot 3 post form data](https://user-images.githubusercontent.com/42342586/52385262-779d4000-2acc-11e9-9f15-8afb36684f4a.png)
+![testing screenshot 4 correct data flow through mailer middleware](https://user-images.githubusercontent.com/42342586/52385263-779d4000-2acc-11e9-85b0-666278e719d2.png)
+![testing screenshot 5 responsiveness on heroku](https://user-images.githubusercontent.com/42342586/52385264-7835d680-2acc-11e9-9228-f8f47100145b.png)
+
+#### Team Communication Screenshots:
+![team communication screenshot 1](https://user-images.githubusercontent.com/42342586/52385244-6eac6e80-2acc-11e9-877e-d68963fc5fca.png)
+![team communication screenshot 2](https://user-images.githubusercontent.com/42342586/52385246-6eac6e80-2acc-11e9-9c34-3da02b5cb971.png)
+![team communication screenshot 3](https://user-images.githubusercontent.com/42342586/52385247-6f450500-2acc-11e9-940f-860f3800247f.png)
+![team communication screenshot 4](https://user-images.githubusercontent.com/42342586/52385248-6f450500-2acc-11e9-8519-62a881f1e291.png)
+![team communication screenshot 5](https://user-images.githubusercontent.com/42342586/52385249-6f450500-2acc-11e9-97af-c35f9cbbd36b.png)
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
