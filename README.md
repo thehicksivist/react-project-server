@@ -175,7 +175,11 @@ Date picker
 
 
 ## Project Management & Planning process including,
+
+
 ### Project plan & timeline
+![project-timeline](https://user-images.githubusercontent.com/38389703/52384442-33f50700-2ac9-11e9-9a6f-8eca688664f4.jpg)
+
 
 ### Client communications
 ![client-comunications](https://user-images.githubusercontent.com/38389703/52384323-c34dea80-2ac8-11e9-8de4-a5b9c18fdf27.jpg)
