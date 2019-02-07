@@ -10,12 +10,17 @@
   *Feedback
   *Location 
   *Form to request a quote.
-
+  
 ### Problem definition / purpose
 Our client was relying soley on facebook and word of mouth to attract potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
 
 ### Functionality / features
-
+We have built Five-Star Mowing’s business website with the following pages and content: 
+Home → carousel of images of completed jobs, brief list of services, map showing business base location
+About → an image of the business owner and short description of the business
+Services → a full list of the services provided by the business
+Feedback → clients can leave feedback about the completed jobs
+Quote → contains an image of the process of quoting and booking, and has a form that a visitor can fill out and submit to request a job quote, which sends an email to the business owner with the details required
 
 ### Screenshots
 
@@ -48,9 +53,33 @@ Our client was relying soley on facebook and word of mouth to attract potential 
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
+  *MongoDB → The database containing a list of services which is pulled into the quote form page, and the quote forms that have been filled out and submitted.
+  *Node+Express → Node.js is the runtime environment used during development, and Express.js is the application framework built on top of Node to enable the functionality for creating the server-side of our application.
+  *React → React.js is a Javascript library that was used to build the front-end of our application, using its component system as the tool for disaplying information effectively and efficiently.
+  *HTML+JSX → HTML-like syntax was used in JSX format for creating the core structure of our components built with React.
+  *CSS+Bootstrap → CSS and Bootsrap were the tools used to style our components, pages and app as a whole.
+  *Cloudinary → Cloudinary is a could-based content storing and serving tool, which we used to securely serve our images to the application.
+  *Heroku → The deployment platform for our app, our project files were uploaded to the Heroku server so it can be accessed on the web.
 
 ### Instructions on how to setup, configure, deploy and use your App.
 
+####Developer perspective;
+  *clone the git repo from https://github.com/thanhthedev/react-project-server
+  *open the project directory
+  *open a terminal/ console window
+  *in the console; npm install
+  *once that has completed; cd client
+  *npm install
+  *cd ..
+  *open the project in a source code editor like Vscode
+  *open config/keys_dev.js
+  *replace the database URI with your own, for example a link to a database on Mlab.com
+  *Ready to Go!
+
+####End user;
+  *visit https://fierce-earth-84978.herokuapp.com/
+  *from there, you can navigate via the links at the top of the page to; Home, About, Services, Feedback, Quote
+  *On the Quote page, fill out the form with your details then click submit to send a request to Troy to inspect your property before making a booking for a job.
 
 ## Design 
 ### Design process
@@ -145,14 +174,6 @@ Date picker
 ‘Date picker’ is also a React widget. It also required a localiser library, ‘Moment’ to help define the states within the component. ‘Date picker’ utilises state to define the date as well as the date changes. 
 
 
-
-
-
-
-
-
-
-
 ## Project Management & Planning process including,
 ### Project plan & timeline
 ### Client communications
@@ -194,6 +215,22 @@ Lastly, the quality of the development process will affect the longevity of the 
   * React-widgets – is a set of extensible and accessible form inputs built for react
 
 ### 3. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
+
+
+Skills: 
+###Communication 
+   *gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
+   *Be assertive to prevent client from deferring from the agreed upon plan.
+###Time management 
+  *A clear and precise project plan that is revisited and readjusted where needed throughout the course of the project will keep developers on the task at hand. 
+  *Have a plan in place and work around the tasks needed to finish instead of just basing it on time to complete
+###Attitude 
+  *Go into the task with a clear head and a positive attitude. Be ready to collaborate with team members. Share your weaknesses and strengths if you have to and always ask for help.
+###Problem solving
+  *In any project there will be a certain amount of problem solving needed to complete it, so it’s important to know good problem-solving practices. Analyse the problem in parts instead of a whole to prevent getting overwhelmed, be open to suggestions from others (not everyone thinks like you).  
+Knowledge:
+###Programming language
+  *It goes without saying you will need programming knowledge to complete a project like this, however you can complete it with even a basic understanding of the language and framework, google the rest.
 
 
 ### 4. Within your own project what knowledge or skills were required to complete your project, and overcome challenges?
