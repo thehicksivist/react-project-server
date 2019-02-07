@@ -180,6 +180,24 @@ Date picker
 
 ### Screenshots of Trello board(s)
 
+![trello screenshot 1](https://user-images.githubusercontent.com/42342586/52383906-0909b380-2ac7-11e9-8d84-1d5a4b93948d.png)
+![trello screenshot 2](https://user-images.githubusercontent.com/42342586/52383908-0909b380-2ac7-11e9-9abb-347f04cba210.png)
+![trello screenshot 3](https://user-images.githubusercontent.com/42342586/52383909-09a24a00-2ac7-11e9-950a-c675761fae42.png)
+![trello screenshot 4](https://user-images.githubusercontent.com/42342586/52383910-09a24a00-2ac7-11e9-997f-745388fd6f5e.png)
+![trello screenshot 5](https://user-images.githubusercontent.com/42342586/52383911-0a3ae080-2ac7-11e9-8323-4a8a7f8d4d62.png)
+![trello screenshot 6](https://user-images.githubusercontent.com/42342586/52383912-0a3ae080-2ac7-11e9-875a-ed416e21d045.png)
+![trello screenshot 7](https://user-images.githubusercontent.com/42342586/52383914-0ad37700-2ac7-11e9-9fc7-4491a6e249fd.png)
+![trello screenshot 8](https://user-images.githubusercontent.com/42342586/52383915-0ad37700-2ac7-11e9-933a-21f63f053071.png)
+![trello screenshot 9](https://user-images.githubusercontent.com/42342586/52383916-0ad37700-2ac7-11e9-8317-8e7ea3a5e1e1.png)
+![trello screenshot 10](https://user-images.githubusercontent.com/42342586/52383917-0b6c0d80-2ac7-11e9-9621-2c076a09a90f.png)
+![trello screenshot 11](https://user-images.githubusercontent.com/42342586/52383918-0b6c0d80-2ac7-11e9-94b0-c34887e9e78a.png)
+![trello screenshot 12](https://user-images.githubusercontent.com/42342586/52383920-0c04a400-2ac7-11e9-9efa-37940de0e7fc.png)
+![trello screenshot 13](https://user-images.githubusercontent.com/42342586/52383921-0c04a400-2ac7-11e9-9a7e-0537c3c1d87f.png)
+![trello screenshot 14](https://user-images.githubusercontent.com/42342586/52383922-0c9d3a80-2ac7-11e9-9860-81dfc5626fcc.png)
+![trello screenshot 15](https://user-images.githubusercontent.com/42342586/52383923-0c9d3a80-2ac7-11e9-8a2f-dedf36795686.png)
+![trello screenshot 16](https://user-images.githubusercontent.com/42342586/52383924-0c9d3a80-2ac7-11e9-8367-b922446c075a.png)
+![trello screenshot 17](https://user-images.githubusercontent.com/42342586/52383925-0d35d100-2ac7-11e9-8372-39170815e815.png)
+
 ## Short Answer questions 
 ### 1. What are the most important aspects of quality software?
 
