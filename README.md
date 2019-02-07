@@ -131,16 +131,17 @@ Design libraries chosen
 
 
 ### Form Design and Development
-Components for form input constructed
-Experimented with component design utilising Redux-Forms and React Widgets.
-Form required different input values - text input, select from a drop down menu, multi select options from the services pulled from the database, time picker and date picker.
-Widget utilised for date picker , because of difficulty in coding with localisers.
-Time picker was hardcoded because of the difficulty with localisers.
-Connected form submission to database using Axios
+- Components for form input constructed
+- Experimented with component design utilising Redux
+- Forms and React Widgets.
+- Form required different input values - text input, select from a drop down menu, multi select options from the services pulled from the database, time picker and date picker.
+- Widget utilised for date picker , because of difficulty in coding with localisers.
+- Time picker was hardcoded because of the difficulty with localisers.
+- Connected form submission to database using Axios
 
 ### Email Design and Development
--  Implemented Nodemailer as the email process.
-Connected form submission to Nodemailer
+- Implemented Nodemailer as the email process.
+- Connected form submission to Nodemailer
 
 
 ### Testing
