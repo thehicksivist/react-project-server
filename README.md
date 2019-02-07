@@ -99,15 +99,15 @@ We have built Five-Star Mowing’s business website with the following pages and
 #### As anonymous when Quote is clicked I can:
 
 1. Fill out details that will include:
-  *Address and Suburb
-  *Property type
-  *Email
-  *Name
-  *Date of potential booking
-  *Time of potential booking
-  *Pick the services wanted from a dropdown list
-  *Phone number
-  *Personalise with a message
+  * Address and Suburb
+  * Property type
+  * Email
+  * Name
+  * Date of potential booking
+  * Time of potential booking
+  * Pick the services wanted from a dropdown list
+  * Phone number
+  * Personalise with a message
 
 
 ###  Workflow diagram of the user journey/s.
@@ -198,8 +198,8 @@ Lastly, the quality of the development process will affect the longevity of the 
 
 ### 2. What libraries are being used in the app and why?
 
-  *Bootstrap 4 – is a CSS framework used for styling responsive, mobile-first websites. This made it easier to style all our pages in a global format.
-  *React.js – is a Javascript library use for building efficient and flexible user interfaces. We used it for its component feature, allowing us to easily structure our code and have it built to maximise extensibility.
+  * Bootstrap 4 – is a CSS framework used for styling responsive, mobile-first websites. This made it easier to style all our pages in a global format.
+  * React.js – is a Javascript library use for building efficient and flexible user interfaces. We used it for its component feature, allowing us to easily structure our code and have it built to maximise extensibility.
   * Nodemailer – is a module for Node.js for ‘easy as cake’ email sending. We used it to forward an email to the business owner from a form on the website which can be filled out by any visitor.
   * Redux – is a state container for javascript applications which helps you manage the stored and displayed data and how you respond to user actions.
   * Axios - is a Javascript library used to make HTTP requests from node.js or XMLHttpRequests from the browser that also supports the ES6 Promise API
@@ -219,18 +219,18 @@ Lastly, the quality of the development process will affect the longevity of the 
 
 Skills: 
 ###Communication 
-   *gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
-   *Be assertive to prevent client from deferring from the agreed upon plan.
+   * gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
+   * Be assertive to prevent client from deferring from the agreed upon plan.
 ###Time management 
-  *A clear and precise project plan that is revisited and readjusted where needed throughout the course of the project will keep developers on the task at hand. 
-  *Have a plan in place and work around the tasks needed to finish instead of just basing it on time to complete
+  * A clear and precise project plan that is revisited and readjusted where needed throughout the course of the project will keep developers on the task at hand. 
+  * Have a plan in place and work around the tasks needed to finish instead of just basing it on time to complete
 ###Attitude 
-  *Go into the task with a clear head and a positive attitude. Be ready to collaborate with team members. Share your weaknesses and strengths if you have to and always ask for help.
+  * Go into the task with a clear head and a positive attitude. Be ready to collaborate with team members. Share your weaknesses and strengths if you have to and always ask for help.
 ###Problem solving
-  *In any project there will be a certain amount of problem solving needed to complete it, so it’s important to know good problem-solving practices. Analyse the problem in parts instead of a whole to prevent getting overwhelmed, be open to suggestions from others (not everyone thinks like you).  
+  * In any project there will be a certain amount of problem solving needed to complete it, so it’s important to know good problem-solving practices. Analyse the problem in parts instead of a whole to prevent getting overwhelmed, be open to suggestions from others (not everyone thinks like you).  
 Knowledge:
 ###Programming language
-  *It goes without saying you will need programming knowledge to complete a project like this, however you can complete it with even a basic understanding of the language and framework, google the rest.
+  * It goes without saying you will need programming knowledge to complete a project like this, however you can complete it with even a basic understanding of the language and framework, google the rest.
 
 
 ### 4. Within your own project what knowledge or skills were required to complete your project, and overcome challenges?
