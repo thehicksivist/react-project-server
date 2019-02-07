@@ -176,7 +176,9 @@ Date picker
 
 ## Project Management & Planning process including,
 ### Project plan & timeline
+
 ### Client communications
+![client-comunications](https://user-images.githubusercontent.com/38389703/52384323-c34dea80-2ac8-11e9-8de4-a5b9c18fdf27.jpg)
 
 ### Screenshots of Trello board(s)
 
