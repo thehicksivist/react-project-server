@@ -1,7 +1,7 @@
 # Five Stars Mowing
 ### Michelle Bryant, James Hicks, Beth Callanan, Thanh Dao, Jaouad Sourour
 
- ##### Deployed live on heroku at <a href="https://fierce-earth-84978.herokuapp.com" target="_blank">Mowing Five Star => CTRL+click on the link to open in a new window</a>
+ ##### Deployed live on heroku at <a href="https://fierce-earth-84978.herokuapp.com" target="_blank">https://fierce-earth-84978.herokuapp.com => CTRL+click on the link to open in a new window</a>
 ##### visit our repo at https://github.com/thanhthedev/react-project-server
 
 ## Description of Project
