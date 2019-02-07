@@ -205,6 +205,11 @@ Date picker
 ### Client communications
 ![client-comunications](https://user-images.githubusercontent.com/38389703/52384323-c34dea80-2ac8-11e9-8de4-a5b9c18fdf27.jpg)
 
+###  !You will find in the Docs folder a audio file pertaining the main communication we had with our client as he is located in Caboolture and was not available to meet in person. 
+
+#### potential client record
+In the same docs folder there is a file with the email correspondence from our first potential client KatieB. 
+
 ### Screenshots of Trello board(s)
 
 ![trello screenshot 1](https://user-images.githubusercontent.com/42342586/52383906-0909b380-2ac7-11e9-8d84-1d5a4b93948d.png)
