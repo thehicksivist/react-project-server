@@ -24,6 +24,7 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 ### Screenshots
 
+#### Application Screenshots:
 #### Mock up of homepage
 ![home-page-mock](https://user-images.githubusercontent.com/38389703/52257675-6d156600-2967-11e9-8e36-d51ad5304b7e.png)
 
@@ -50,6 +51,16 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 #### Services page
 ![services-page](https://user-images.githubusercontent.com/38389703/52313847-da72d680-29fb-11e9-8981-2f46882be35c.png)
+
+#### Testing Screenshots:
+![testing screenshot 1 initial component rendering](https://user-images.githubusercontent.com/42342586/52384694-47ed3880-2aca-11e9-8710-78fdde1ab285.png)
+![testing screenshot 2 get services to form](https://user-images.githubusercontent.com/42342586/52384696-4885cf00-2aca-11e9-9f94-ac7c23725dce.png)
+![testing screenshot 3 post form data](https://user-images.githubusercontent.com/42342586/52384697-4885cf00-2aca-11e9-8b55-d4ac88ceaf4d.png)
+![testing screenshot 4 correct data flow through mailer middleware](https://user-images.githubusercontent.com/42342586/52384698-4885cf00-2aca-11e9-9922-da2c6bc16d63.png)
+![testing screenshot 5 responsiveness on heroku](https://user-images.githubusercontent.com/42342586/52384699-491e6580-2aca-11e9-9f10-98f76809e50b.png)
+
+#### Team Communication Screenshots:
+
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
