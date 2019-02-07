@@ -1,7 +1,7 @@
 # REACT App
 ### Michelle Bryant, James Hicks, Beth Callanan, Thanh Dao, Jaouad Sourour
 
-##### Deployed live on heroku at https://quiet-hamlet-48198.herokuapp.com
+##### Deployed live on heroku at https://fierce-earth-84978.herokuapp.com/
 ##### visit our repo at https://github.com/thanhthedev/react-project-server
 
 ## Description of Project
@@ -218,18 +218,19 @@ Lastly, the quality of the development process will affect the longevity of the 
 
 
 Skills: 
-###Communication 
+### Communication 
    * gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
    * Be assertive to prevent client from deferring from the agreed upon plan.
-###Time management 
+### Time management 
   * A clear and precise project plan that is revisited and readjusted where needed throughout the course of the project will keep developers on the task at hand. 
   * Have a plan in place and work around the tasks needed to finish instead of just basing it on time to complete
-###Attitude 
+### Attitude 
   * Go into the task with a clear head and a positive attitude. Be ready to collaborate with team members. Share your weaknesses and strengths if you have to and always ask for help.
-###Problem solving
-  * In any project there will be a certain amount of problem solving needed to complete it, so it’s important to know good problem-solving practices. Analyse the problem in parts instead of a whole to prevent getting overwhelmed, be open to suggestions from others (not everyone thinks like you).  
+### Problem solving
+  * In any project there will be a certain amount of problem solving needed to complete it, so it’s important to know good problem-solving practices. Analyse the problem in parts instead of a whole to prevent getting overwhelmed, be open to suggestions from others (not everyone thinks like you).
+  
 Knowledge:
-###Programming language
+### Programming language
   * It goes without saying you will need programming knowledge to complete a project like this, however you can complete it with even a basic understanding of the language and framework, google the rest.
 
 
