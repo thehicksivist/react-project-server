@@ -240,3 +240,11 @@ Knowledge:
 
 ### James:
 I understand the individual libraries and frameworks but have difficulty with the configuration between them. Also, when I see something built with different syntax as to how we learnt it in class I feel very lost. For example, I was referencing the slides and lectures for react and redux to work out how to get information from the store state, but the configuration was completely different in the store and reducer files so I had no idea how it was working. I had a similar issue with an onSubmit function and handleSubmit function, where I could see where they were initially defined, so could not distinguish how to manipulate their functionality. The projects themselves I think are good. I think more class time could be spent on understanding HTTP requests and how to deconstruct pre-defined functions and classes in APIs/ middleware/ imported libraries.
+
+### Michelle:
+
+In this project, I was given the opportunity to code and create the quote form that would be submitted to the database and the mailer. 
+
+In the research and planning part of the project, my ability to research and assess what would be the best option forward helped to scope the project. For example in using Nodemailer for the email submission of the form and not emailing the form as a pdf. 
+
+

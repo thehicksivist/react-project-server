@@ -14,9 +14,9 @@ const FormComponent = ({ handleSubmit, services }) => {
 
 
     return (
-           <div style={{ background: `url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1549408306/Five%20Star/prograss_res.jpg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} className="flex flex-column justify-center items-center mb-5 mt-5" alt="">
+        <div style={{ background: `url(http://res.cloudinary.com/dneussrl1/image/upload/v1549502374/sujan-sundareswaran-583-unsplash.jpg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} className="flex flex-column justify-center items-center mb-5 mt-5" alt="">
             <div className="image">
-                <img src={header} width="1000" height="600" alt=""/>
+                <img src={header} width="1000" height="600" alt="" />
             </div>
             <form
                 className="w-80"
@@ -136,15 +136,15 @@ const FormComponent = ({ handleSubmit, services }) => {
                 </div>
 
                 <div className="container">
-                            <title>Click to select Service/s Required:</title>
-                            <div className="col">
-                                <Field
-                                    name="service"
-                                    label="Services Required"
-                                    component={Multiselect}
-                                    data={services}
-                                />
-                            </div>
+                    <title>Click to select Service/s Required:</title>
+                    <div className="col">
+                        <Field
+                            name="service"
+                            label="Services Required"
+                            component={Multiselect}
+                            data={services}
+                        />
+                    </div>
                 </div>
                 <div className="container">
                     <Field
@@ -153,7 +153,7 @@ const FormComponent = ({ handleSubmit, services }) => {
                         component={Text}
                     />
                 </div>
-                
+
                 <button type="submit" className="link br2 bg-blue white dim pa3 f6 sans-serif b--blue ba">
                     Submit
 				</button>
