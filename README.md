@@ -6,21 +6,21 @@
 
 ## Description of Project
 #### This is a web-app for Troys five star mowing business where viewers can see: 
-   *Services
-   *Feedback
-   *Location 
-   *Form to request a quote.
+   * Services
+   * Feedback
+   * Location 
+   * Form to request a quote.
   
 ### Problem definition / purpose
 Our client was relying soley on facebook and word of mouth to attract potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
 
 ### Functionality / features
 We have built Five-Star Mowing’s business website with the following pages and content: 
-  *Home → carousel of images of completed jobs, brief list of services, map showing business base location
-  *About → an image of the business owner and short description of the business
-  *Services → a full list of the services provided by the business
-  *Feedback → clients can leave feedback about the completed jobs
-  *Quote → contains an image of the process of quoting and booking, and has a form that a visitor can fill out and submit to request a job quote, which sends an email to the business owner with the details required
+  * Home → carousel of images of completed jobs, brief list of services, map showing business base location
+  * About → an image of the business owner and short description of the business
+  * Services → a full list of the services provided by the business
+  * Feedback → clients can leave feedback about the completed jobs
+  * Quote → contains an image of the process of quoting and booking, and has a form that a visitor can fill out and submit to request a job quote, which sends an email to the business owner with the details required
 
 ### Screenshots
 
@@ -53,33 +53,33 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
-  *MongoDB → The database containing a list of services which is pulled into the quote form page, and the quote forms that have been filled out and submitted.
-  *Node+Express → Node.js is the runtime environment used during development, and Express.js is the application framework built on top of Node to enable the functionality for creating the server-side of our application.
-  *React → React.js is a Javascript library that was used to build the front-end of our application, using its component system as the tool for disaplying information effectively and efficiently.
-  *HTML+JSX → HTML-like syntax was used in JSX format for creating the core structure of our components built with React.
-  *CSS+Bootstrap → CSS and Bootsrap were the tools used to style our components, pages and app as a whole.
-  *Cloudinary → Cloudinary is a could-based content storing and serving tool, which we used to securely serve our images to the application.
-  *Heroku → The deployment platform for our app, our project files were uploaded to the Heroku server so it can be accessed on the web.
+  * MongoDB → The database containing a list of services which is pulled into the quote form page, and the quote forms that have been filled out and submitted.
+  * Node+Express → Node.js is the runtime environment used during development, and Express.js is the application framework built on top of Node to enable the functionality for creating the server-side of our application.
+  * React → React.js is a Javascript library that was used to build the front-end of our application, using its component system as the tool for disaplying information effectively and efficiently.
+  * HTML+JSX → HTML-like syntax was used in JSX format for creating the core structure of our components built with React.
+  * CSS+Bootstrap → CSS and Bootsrap were the tools used to style our components, pages and app as a whole.
+  * Cloudinary → Cloudinary is a could-based content storing and serving tool, which we used to securely serve our images to the application.
+  * Heroku → The deployment platform for our app, our project files were uploaded to the Heroku server so it can be accessed on the web.
 
 ### Instructions on how to setup, configure, deploy and use your App.
 
 ####Developer perspective;
-  *clone the git repo from https://github.com/thanhthedev/react-project-server
-  *open the project directory
-  *open a terminal/ console window
-  *in the console; npm install
-  *once that has completed; cd client
-  *npm install
-  *cd ..
-  *open the project in a source code editor like Vscode
-  *open config/keys_dev.js
-  *replace the database URI with your own, for example a link to a database on Mlab.com
-  *Ready to Go!
+  * clone the git repo from https://github.com/thanhthedev/react-project-server
+  * open the project directory
+  * open a terminal/ console window
+  * in the console; npm install
+  * once that has completed; cd client
+  * npm install
+  * cd ..
+  * open the project in a source code editor like Vscode
+  * open config/keys_dev.js
+  * replace the database URI with your own, for example a link to a database on Mlab.com
+  * Ready to Go!
 
 ####End user;
-  *visit https://fierce-earth-84978.herokuapp.com/
-  *from there, you can navigate via the links at the top of the page to; Home, About, Services, Feedback, Quote
-  *On the Quote page, fill out the form with your details then click submit to send a request to Troy to inspect your property before making a booking for a job.
+  * visit https://fierce-earth-84978.herokuapp.com/
+  * from there, you can navigate via the links at the top of the page to; Home, About, Services, Feedback, Quote
+  * On the Quote page, fill out the form with your details then click submit to send a request to Troy to inspect your property before making a booking for a job.
 
 ## Design 
 ### Design process
@@ -90,10 +90,10 @@ We have built Five-Star Mowing’s business website with the following pages and
 1. View a homepage with before and after shots of lawns 
 2. See a map of where mower man is placed with surrounding areas
 3. Navigate site using nav-bar links including:
-  *Home
-  *About
-  *Feedback
-  *Quote
+  * Home
+  * About
+  * Feedback
+  * Quote
 4. View  his contact details 
 
 #### As anonymous when Quote is clicked I can:
