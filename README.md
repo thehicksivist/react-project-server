@@ -231,7 +231,8 @@ Lastly, the quality of the development process will affect the longevity of the 
   * Cloudinary – is a cloud-based image and video management platform used to store and serve content to web applications.
   * Moment – is a date library for parsing, validating, manipulating and formatting dates.
   * React-widgets – is a set of extensible and accessible form inputs built for react
-
+  * Jest - JavaScript Testing Framework with a focus on simplicity 
+  * React-test-renderer - makes it easy to grab a snapshot of the "DOM tree" rendered by a React DOM or React Native component without using a browser or jsdom
 ### 3. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
 
