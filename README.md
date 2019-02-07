@@ -6,10 +6,10 @@
 
 ## Description of Project
 #### This is a web-app for Troys five star mowing business where viewers can see: 
-  *Services
-  *Feedback
-  *Location 
-  *Form to request a quote.
+ *Services
+ *Feedback
+ *Location 
+ *Form to request a quote.
   
 ### Problem definition / purpose
 Our client was relying soley on facebook and word of mouth to attract potential clients for his lawn mowing business. The purpose of the web application is to display the services Troy has to offer, his location and travel limitations as well as a form for potentials to fill out to request a free quote.
