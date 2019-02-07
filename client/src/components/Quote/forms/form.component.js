@@ -85,27 +85,27 @@ const FormComponent = ({ handleSubmit, services }) => {
                                 name="timeOfInspection"
                                 component={Select}
                                 options={{
-                                    seven: "7:00am",
-                                    seventhirty: "7:30am",
-                                    eight: "8:00am",
-                                    eightthirty: "8:30am",
-                                    nine: "9:00am",
-                                    ninethirty: "9:30am",
-                                    ten: "10:00am",
-                                    tenthirty: "10:30am",
-                                    eleven: "11:00am",
-                                    eleventhirty: "11:30am",
-                                    twelve: "12:00pm",
-                                    twelvethirty: "12:30pm",
-                                    one: "1:00pm",
-                                    onethirty: "1:30pm",
-                                    two: "2:00pm",
-                                    twothirty: "2:30pm",
-                                    three: "3:00pm",
-                                    threethirty: "3:30pm",
-                                    four: "4:00pm",
-                                    fourthirty: "4:30pm",
-                                    five: "5:00pm"
+                                    "7am": "7:00am",
+                                    "7:30am": "7:30am",
+                                    "8am": "8:00am",
+                                    "8:30am": "8:30am",
+                                    "9am": "9:00am",
+                                    "9:30am": "9:30am",
+                                    "10am": "10:00am",
+                                    "10:30am": "10:30am",
+                                    "11am": "11:00am",
+                                    "11:30am": "11:30am",
+                                    "12pm": "12:00pm",
+                                    "12:30pm": "12:30pm",
+                                    "1pm": "1:00pm",
+                                    "1:30pm": "1:30pm",
+                                    "2pm": "2:00pm",
+                                    "2:30pm": "2:30pm",
+                                    "3pm": "3:00pm",
+                                    "3:30pm": "3:30pm",
+                                    "4pm": "4:00pm",
+                                    "4:30pm": "4:30pm",
+                                    "5pm": "5:00pm"
                                 }}
                             />
                         </div>
