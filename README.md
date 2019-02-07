@@ -1,4 +1,4 @@
-# REACT App
+# Five Stars Mowing
 ### Michelle Bryant, James Hicks, Beth Callanan, Thanh Dao, Jaouad Sourour
 
 ##### Deployed live on heroku at https://fierce-earth-84978.herokuapp.com/
@@ -244,7 +244,7 @@ Lastly, the quality of the development process will affect the longevity of the 
 
 Skills: 
 ### Communication 
-   * gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
+   * Gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
    * Be assertive to prevent client from deferring from the agreed upon plan.
 ### Time management 
   * A clear and precise project plan that is revisited and readjusted where needed throughout the course of the project will keep developers on the task at hand. 
