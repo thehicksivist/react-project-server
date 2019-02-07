@@ -103,6 +103,50 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 ## Design 
 ### Design process
+
+In the implementation and design of the project, tasks were allocated to specific members of the team. These tasks ranged from research, design, development or testing of the code for the site. Tasks were assigned through standup meetings that were conducted every morning, and were monitored primarily through verbal and slack communication. Trello was also utilised to assess the scale of the required tasks to complete.
+
+### Specification Assessment
+Client interviews and discussion
+Assessed client viability
+Confirmed client
+
+### Research
+-  Trello board  populated with specifications and criteria requirements to structure the design process.
+Researched libraries and component design to assess what would be the best approach to solving client specifications.
+Nodemailer chosen as email server
+Redux-forms chosen as framework to create the form quote due to its high versatility and ease of use.
+- Client Facebook image scraping
+
+### Database Design and Development
+Database models, quote and services constructed.
+Dataflow diagram and quote process implemented.
+Routes coded for implementation of the pages.
+
+
+### Visual Design and Development
+Visual design of pages - home, services, about, form.
+Styling elements selected (i.e colour code and font)
+Design libraries chosen
+
+
+### Form Design and Development
+Components for form input constructed
+Experimented with component design utilising Redux-Forms and React Widgets.
+Form required different input values - text input, select from a drop down menu, multi select options from the services pulled from the database, time picker and date picker.
+Widget utilised for date picker , because of difficulty in coding with localisers.
+Time picker was hardcoded because of the difficulty with localisers.
+Connected form submission to database using Axios
+
+### Email Design and Development
+-  Implemented Nodemailer as the email process.
+Connected form submission to Nodemailer
+
+
+### Testing
+Manual Testing  was conducted on the site continually throughout the build process
+Automated testing was conducted at the completion of the site to assess for any missed issues.
+
 ### User stories
 
 #### As anonymous I can: 
@@ -287,6 +331,7 @@ Knowledge:
 
 ### 4. Within your own project what knowledge or skills were required to complete your project, and overcome challenges?
 
+In our project we each implemented adequate time-management skills, although our communication sometimes wasn’t the greatest. All were confident enough to start on a feature and work separately but when needed, worked equally well as pairs or more trying to fix a bug.  
 
 ### 5.Evaluate how effective your knowledge and skills were this project, using examples, and suggest changes or improvements for future projects of a similar nature?
 
@@ -301,3 +346,6 @@ In the research and planning part of the project, my ability to research and ass
 
 ### Thanh:
 My knowledge and skills in node.js have been effective and have improved, however my react skills need more improvement. I understand nodemailer, routes, models, mlabs and heroku better. Testing is hard.
+
+### Beth
+Throughout this project I’ve felt while my knowledge, skills and confidence may be lacking working in a group that is quick to help out made me work harder at a problem. It’s hard to translate what we’ve learned in class to a real-world application but searching through the resources that we have, and the problem-solving skills we have accumulated throughout the course make it less overwhelming. I worked on validation and design aspects which I loved even when I couldn’t solve the problem my group made it a safe place to be stuck.   
