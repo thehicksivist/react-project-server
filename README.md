@@ -1,7 +1,7 @@
-# REACT App
+# Five Stars Mowing
 ### Michelle Bryant, James Hicks, Beth Callanan, Thanh Dao, Jaouad Sourour
 
-##### Deployed live on heroku at https://quiet-hamlet-48198.herokuapp.com
+##### Deployed live on heroku at https://fierce-earth-84978.herokuapp.com/
 ##### visit our repo at https://github.com/thanhthedev/react-project-server
 
 ## Description of Project
@@ -53,7 +53,7 @@ We have built Five-Star Mowing’s business website with the following pages and
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
-  * MongoDB → The database containing a list of services which is pulled into the quote form page, and the quote forms that have been filled out and submitted.
+  * MongoDB+Mlab → The database containing a list of services which is pulled into the quote form page, and the quote forms that have been filled out and submitted.
   * Node+Express → Node.js is the runtime environment used during development, and Express.js is the application framework built on top of Node to enable the functionality for creating the server-side of our application.
   * React → React.js is a Javascript library that was used to build the front-end of our application, using its component system as the tool for disaplying information effectively and efficiently.
   * HTML+JSX → HTML-like syntax was used in JSX format for creating the core structure of our components built with React.
@@ -64,16 +64,16 @@ We have built Five-Star Mowing’s business website with the following pages and
 ### Instructions on how to setup, configure, deploy and use your App.
 
 ####Developer perspective;
-  * clone the git repo from https://github.com/thanhthedev/react-project-server
-  * open the project directory
-  * open a terminal/ console window
-  * in the console; npm install
-  * once that has completed; cd client
+  * Clone the git repo from https://github.com/thanhthedev/react-project-server
+  * Open the project directory
+  * Open a terminal/ console window
+  * In the console; npm install
+  * Once that has completed; cd client
   * npm install
   * cd ..
-  * open the project in a source code editor like Vscode
-  * open config/keys_dev.js
-  * replace the database URI with your own, for example a link to a database on Mlab.com
+  * Open the project in a source code editor like Vscode
+  * Open config/keys_dev.js
+  * Replace the database URI with your own, for example a link to a database on Mlab.com
   * Ready to Go!
 
 ####End user;
@@ -175,10 +175,34 @@ Date picker
 
 
 ## Project Management & Planning process including,
+
+
 ### Project plan & timeline
+![project-timeline](https://user-images.githubusercontent.com/38389703/52384442-33f50700-2ac9-11e9-9a6f-8eca688664f4.jpg)
+
+
 ### Client communications
+![client-comunications](https://user-images.githubusercontent.com/38389703/52384323-c34dea80-2ac8-11e9-8de4-a5b9c18fdf27.jpg)
 
 ### Screenshots of Trello board(s)
+
+![trello screenshot 1](https://user-images.githubusercontent.com/42342586/52383906-0909b380-2ac7-11e9-8d84-1d5a4b93948d.png)
+![trello screenshot 2](https://user-images.githubusercontent.com/42342586/52383908-0909b380-2ac7-11e9-9abb-347f04cba210.png)
+![trello screenshot 3](https://user-images.githubusercontent.com/42342586/52383909-09a24a00-2ac7-11e9-950a-c675761fae42.png)
+![trello screenshot 4](https://user-images.githubusercontent.com/42342586/52383910-09a24a00-2ac7-11e9-997f-745388fd6f5e.png)
+![trello screenshot 5](https://user-images.githubusercontent.com/42342586/52383911-0a3ae080-2ac7-11e9-8323-4a8a7f8d4d62.png)
+![trello screenshot 6](https://user-images.githubusercontent.com/42342586/52383912-0a3ae080-2ac7-11e9-875a-ed416e21d045.png)
+![trello screenshot 7](https://user-images.githubusercontent.com/42342586/52383914-0ad37700-2ac7-11e9-9fc7-4491a6e249fd.png)
+![trello screenshot 8](https://user-images.githubusercontent.com/42342586/52383915-0ad37700-2ac7-11e9-933a-21f63f053071.png)
+![trello screenshot 9](https://user-images.githubusercontent.com/42342586/52383916-0ad37700-2ac7-11e9-8317-8e7ea3a5e1e1.png)
+![trello screenshot 10](https://user-images.githubusercontent.com/42342586/52383917-0b6c0d80-2ac7-11e9-9621-2c076a09a90f.png)
+![trello screenshot 11](https://user-images.githubusercontent.com/42342586/52383918-0b6c0d80-2ac7-11e9-94b0-c34887e9e78a.png)
+![trello screenshot 12](https://user-images.githubusercontent.com/42342586/52383920-0c04a400-2ac7-11e9-9efa-37940de0e7fc.png)
+![trello screenshot 13](https://user-images.githubusercontent.com/42342586/52383921-0c04a400-2ac7-11e9-9a7e-0537c3c1d87f.png)
+![trello screenshot 14](https://user-images.githubusercontent.com/42342586/52383922-0c9d3a80-2ac7-11e9-9860-81dfc5626fcc.png)
+![trello screenshot 15](https://user-images.githubusercontent.com/42342586/52383923-0c9d3a80-2ac7-11e9-8a2f-dedf36795686.png)
+![trello screenshot 16](https://user-images.githubusercontent.com/42342586/52383924-0c9d3a80-2ac7-11e9-8367-b922446c075a.png)
+![trello screenshot 17](https://user-images.githubusercontent.com/42342586/52383925-0d35d100-2ac7-11e9-8372-39170815e815.png)
 
 ## Short Answer questions 
 ### 1. What are the most important aspects of quality software?
@@ -213,23 +237,25 @@ Lastly, the quality of the development process will affect the longevity of the 
   * Cloudinary – is a cloud-based image and video management platform used to store and serve content to web applications.
   * Moment – is a date library for parsing, validating, manipulating and formatting dates.
   * React-widgets – is a set of extensible and accessible form inputs built for react
-
+  * Jest - JavaScript Testing Framework with a focus on simplicity 
+  * React-test-renderer - makes it easy to grab a snapshot of the "DOM tree" rendered by a React DOM or React Native component without using a browser or jsdom
 ### 3. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
 
 Skills: 
-###Communication 
-   * gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
+### Communication 
+   * Gain a mutual understanding and agreement by listening to what the client wants and also making the client aware of your limits such as time and/or budget.
    * Be assertive to prevent client from deferring from the agreed upon plan.
-###Time management 
+### Time management 
   * A clear and precise project plan that is revisited and readjusted where needed throughout the course of the project will keep developers on the task at hand. 
   * Have a plan in place and work around the tasks needed to finish instead of just basing it on time to complete
-###Attitude 
+### Attitude 
   * Go into the task with a clear head and a positive attitude. Be ready to collaborate with team members. Share your weaknesses and strengths if you have to and always ask for help.
-###Problem solving
-  * In any project there will be a certain amount of problem solving needed to complete it, so it’s important to know good problem-solving practices. Analyse the problem in parts instead of a whole to prevent getting overwhelmed, be open to suggestions from others (not everyone thinks like you).  
+### Problem solving
+  * In any project there will be a certain amount of problem solving needed to complete it, so it’s important to know good problem-solving practices. Analyse the problem in parts instead of a whole to prevent getting overwhelmed, be open to suggestions from others (not everyone thinks like you).
+  
 Knowledge:
-###Programming language
+### Programming language
   * It goes without saying you will need programming knowledge to complete a project like this, however you can complete it with even a basic understanding of the language and framework, google the rest.
 
 
@@ -247,4 +273,5 @@ In this project, I was given the opportunity to code and create the quote form t
 
 In the research and planning part of the project, my ability to research and assess what would be the best option forward helped to scope the project. For example in using Nodemailer for the email submission of the form and not emailing the form as a pdf. 
 
-
+### Thanh:
+My knowledge and skills in node.js have been effective and have improved, however my react skills need more improvement. I understand nodemailer, routes, models, mlabs and heroku better. Testing is hard.
