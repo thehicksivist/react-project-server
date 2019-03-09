@@ -50,8 +50,8 @@ const mailer = (req,res) => {
 	
 	  // setup email data with unicode symbols
 	  let mailOptions = {
-		from: '"Test" , <beththeboo94@hotmail.com>', // sender address
-		to: "huythanhdao@gmail.com, jaouad.pxy@gmail.com", // list of receivers
+		from: '"Test" , <the.hicksivist@gmail.com>', // sender address
+		to: "the.hicksivist@gmail.com", // list of receivers
 		subject: `Quote Request` , // Subject line
 		text: "Someone is requesting a quote:", // plain text body
 		html: output // html body
