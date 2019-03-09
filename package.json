@@ -18,15 +18,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/thanhthedev/react-project-server.git"
+		"url": "git+https://github.com/thehicksivist/react-project-server"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/thanhthedev/react-project-server/issues"
+		"url": "https://github.com/thehicksivist/react-project-server/issues"
 	},
-	"homepage": "https://github.com/thanhthedev/react-project-server#readme",
+	"homepage": "https://github.com/thehicksivist/react-project-server#readme",
 	"dependencies": {
 		"body-parser": "^1.18.3",
 		"concurrently": "^4.1.0",
