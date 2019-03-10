@@ -1,18 +1,16 @@
 {
-	"name": "react",
+	"name": "fivestarmowing",
+	"description": "",
 	"version": "1.0.0",
 	"engines": {
 		"node": "8.10.0"
 	},
-	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"client-install": "npm install --prefix client",
 		"start": "node server.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"server": "nodemon server.js",
 		"dev": "starting server...",
-		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm install && npm run build && npm start",
 		"format": "prettier --write \"src/**/*.{js,jsx,html}\""
 	},
 	"repository": {
@@ -28,7 +26,6 @@
 	"homepage": "https://github.com/thehicksivist/react-project-server#readme",
 	"dependencies": {
 		"body-parser": "^1.18.3",
-		"concurrently": "^4.1.0",
 		"cors": "^2.8.5",
 		"express": "^4.16.4",
 		"mongoose": "^5.4.18",
