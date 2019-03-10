@@ -29,7 +29,7 @@ app.use(routes);
 app.use('/services', require('./routes/api/services'));
 
 //mongoose
-mongoose.connect(dbConn, (err) => {
+mongoose.connect(dbConn, { useNewUrlParser: true }, (err) => {
 	if (err) {
 		console.log('Error connecting to database', err);
 	} else {
